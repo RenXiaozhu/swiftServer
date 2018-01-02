@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "218f18bb3e559adf29fcce5e4733fec3"
+build_time: [1514448379, 158605000]
+inputs:
+  "/Users/macmini2/Desktop/workSpace/Perfect-Crypto/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/Promise.swift": [1514448369, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Crypto/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/ThreadQueue.swift": [1514448369, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Crypto/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/Threading.swift": [1514448369, 0]

@@ -1,0 +1,1 @@
+{"object": {"dependencies": [{"basedOn": null, "name": "mysqlclient", "repositoryURL": "https://github.com/PerfectlySoft/Perfect-mysqlclient.git", "state": {"checkoutState": {"branch": null, "revision": "51991fc81e40ddef36e8db1868c9b7f1f83d30dc", "version": "2.0.1"}, "name": "checkout"}, "subpath": "Perfect-mysqlclient.git-5333716826204139417"}]}, "version": 1}

@@ -1,0 +1,10 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "60d9a56a45b229c3c553ad1550aff958"
+build_time: [1514450994, 979494000]
+inputs:
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Duration.swift": [1514450985, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Extensions.swift": [1514450985, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Moment.swift": [1514450985, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/MomentFromNow.swift": [1514450985, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Operators.swift": [1514450985, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/TimeUnit.swift": [1514450985, 0]

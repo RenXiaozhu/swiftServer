@@ -1,0 +1,14 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "09d20f0933d1b510fc5c874ec872de5a"
+build_time: [1514260824, 937962000]
+inputs:
+  "/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/Bytes.swift": [1514256994, 0]
+  "/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/Dir.swift": [1514256994, 0]
+  "/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/File.swift": [1514256994, 0]
+  "/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/JSONConvertible.swift": [1514256994, 0]
+  "/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/Log.swift": [1514256994, 0]
+  "/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/PerfectError.swift": [1514256994, 0]
+  "/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/PerfectServer.swift": [1514256994, 0]
+  "/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/SwiftCompatibility.swift": [1514256994, 0]
+  "/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/SysProcess.swift": [1514256994, 0]
+  "/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/Utilities.swift": [1514256994, 0]

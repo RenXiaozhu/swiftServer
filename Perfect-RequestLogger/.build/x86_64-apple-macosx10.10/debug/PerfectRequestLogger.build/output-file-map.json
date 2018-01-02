@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/.build/x86_64-apple-macosx10.10/debug/PerfectRequestLogger.build/master.swiftdeps"
+  },
+  "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/Sources/PerfectRequestLogger.swift": {
+    "dependencies": "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/.build/x86_64-apple-macosx10.10/debug/PerfectRequestLogger.build/PerfectRequestLogger.d",
+    "object": "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/.build/x86_64-apple-macosx10.10/debug/PerfectRequestLogger.build/PerfectRequestLogger.swift.o",
+    "swiftmodule": "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/.build/x86_64-apple-macosx10.10/debug/PerfectRequestLogger.build/PerfectRequestLogger~partial.swiftmodule",
+    "swift-dependencies": "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/.build/x86_64-apple-macosx10.10/debug/PerfectRequestLogger.build/PerfectRequestLogger.swiftdeps"
+  }
+}

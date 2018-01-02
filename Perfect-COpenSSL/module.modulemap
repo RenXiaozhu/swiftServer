@@ -1,0 +1,6 @@
+framework module COpenSSL {
+    umbrella header "COpenSSL.h"
+    
+    export *
+    module * { export * }
+}

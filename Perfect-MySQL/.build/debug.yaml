@@ -1,0 +1,65 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  "main": ["<PerfectMySQL.module>"]
+  "test": ["<PerfectMySQLTests.module>","<PerfectMySQL.module>","<PerfectMySQLPackageTests.test>"]
+  "PerfectMySQLTests.module": ["<PerfectMySQLTests.module>"]
+  "PerfectMySQL.module": ["<PerfectMySQL.module>"]
+  "PerfectMySQLPackageTests.test": ["<PerfectMySQLPackageTests.test>"]
+default: "main"
+commands: 
+  "<C.PerfectMySQL.module>":
+    tool: phony
+    inputs: ["/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.swiftmodule"]
+    outputs: ["<PerfectMySQL.module>"]
+
+  "<C.PerfectMySQLPackageTests.test>":
+    tool: phony
+    inputs: ["/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQLPackageTests.xctest/Contents/MacOS/PerfectMySQLPackageTests"]
+    outputs: ["<PerfectMySQLPackageTests.test>"]
+
+  "<C.PerfectMySQLTests.module>":
+    tool: phony
+    inputs: ["/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQLTests.swiftmodule"]
+    outputs: ["<PerfectMySQLTests.module>"]
+
+  "C.PerfectMySQL.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "PerfectMySQL"
+    module-output-path: "/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.swiftmodule"
+    inputs: ["/Users/macmini2/Desktop/framework/Perfect-MySQL/Sources/PerfectMySQL.swift"]
+    outputs: ["/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/PerfectMySQL.swift.o","/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.swiftmodule"]
+    import-paths: ["/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug"]
+    temps-path: "/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build"
+    objects: ["/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/PerfectMySQL.swift.o"]
+    other-args: ["-swift-version","3","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j4","-DSWIFT_PACKAGE","-Xcc","-fmodule-map-file=/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/checkouts/Perfect-mysqlclient.git-5333716826204139417/module.modulemap","-I/usr/local/Cellar/mysql/5.7.20/include/mysql","-module-cache-path","/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/ModuleCache"]
+    sources: ["/Users/macmini2/Desktop/framework/Perfect-MySQL/Sources/PerfectMySQL.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "4"
+
+  "C.PerfectMySQLPackageTests.test":
+    tool: shell
+    description: "Linking ./.build/x86_64-apple-macosx10.10/debug/PerfectMySQLPackageTests.xctest/Contents/MacOS/PerfectMySQLPackageTests"
+    inputs: ["/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/PerfectMySQL.swift.o","/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQLTests.build/MySQLTests.swift.o","/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQLTests.build/XCTestManifests.swift.o"]
+    outputs: ["/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQLPackageTests.xctest/Contents/MacOS/PerfectMySQLPackageTests"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-L/usr/local/Cellar/mysql/5.7.20/lib","-lmysqlclient","-g","-L","/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug","-o","/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQLPackageTests.xctest/Contents/MacOS/PerfectMySQLPackageTests","-module-name","PerfectMySQLPackageTests","-Xlinker","-bundle","/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/PerfectMySQL.swift.o","/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQLTests.build/MySQLTests.swift.o","/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQLTests.build/XCTestManifests.swift.o"]
+
+  "C.PerfectMySQLTests.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "PerfectMySQLTests"
+    module-output-path: "/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQLTests.swiftmodule"
+    inputs: ["/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.swiftmodule","/Users/macmini2/Desktop/framework/Perfect-MySQL/Tests/PerfectMySQLTests/MySQLTests.swift","/Users/macmini2/Desktop/framework/Perfect-MySQL/Tests/PerfectMySQLTests/XCTestManifests.swift"]
+    outputs: ["/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQLTests.build/MySQLTests.swift.o","/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQLTests.build/XCTestManifests.swift.o","/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQLTests.swiftmodule"]
+    import-paths: ["/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug"]
+    temps-path: "/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQLTests.build"
+    objects: ["/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQLTests.build/MySQLTests.swift.o","/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQLTests.build/XCTestManifests.swift.o"]
+    other-args: ["-swift-version","3","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j4","-DSWIFT_PACKAGE","-Xcc","-fmodule-map-file=/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/checkouts/Perfect-mysqlclient.git-5333716826204139417/module.modulemap","-I/usr/local/Cellar/mysql/5.7.20/include/mysql","-module-cache-path","/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/ModuleCache"]
+    sources: ["/Users/macmini2/Desktop/framework/Perfect-MySQL/Tests/PerfectMySQLTests/MySQLTests.swift","/Users/macmini2/Desktop/framework/Perfect-MySQL/Tests/PerfectMySQLTests/XCTestManifests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "4"
+

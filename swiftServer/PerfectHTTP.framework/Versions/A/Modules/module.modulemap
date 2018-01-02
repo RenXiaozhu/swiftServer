@@ -1,0 +1,4 @@
+framework module PerfectHTTP {
+    header "PerfectHTTP-Swift.h"
+    requires objc
+}

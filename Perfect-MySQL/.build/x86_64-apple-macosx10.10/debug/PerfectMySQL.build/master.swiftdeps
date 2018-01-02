@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "7be1640407b5859a66051bbd4ce3a739"
+build_time: [1514273501, 399792000]
+inputs:
+  "/Users/macmini2/Desktop/framework/Perfect-MySQL/Sources/PerfectMySQL.swift": [1514256865, 0]

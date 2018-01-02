@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "486285e972e8352c6a5c9e0605141324"
+build_time: [1514258794, 39023000]
+inputs:
+  "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HPACK.swift": [1514258764, 0]
+  "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP11Request.swift": [1514258764, 0]
+  "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP11Response.swift": [1514258764, 0]
+  "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP2.swift": [1514258764, 0]
+  "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTPServer.swift": [1514258764, 0]
+  "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTPServerEx.swift": [1514258764, 0]
+  "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTPServerExConfig.swift": [1514258764, 0]

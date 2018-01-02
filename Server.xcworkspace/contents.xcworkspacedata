@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Perfect-mysqlclient/mysqlclient.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Perfect-Net/PerfectNet.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Perfect-HTTP/PerfectHTTP.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Perfect-Crypto/PerfectCrypto.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Perfect-Thread/PerfectThread.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CLip/PerfectCZlib.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PerfectLib/PerfectLib.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Perfect-COpenSSL/COpenSSL.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:swiftServer/swiftServer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Perfect-MySQL/PerfectMySQL.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Perfect-RequestLogger/PerfectRequestLogger.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Perfect-HTTPServer/PerfectHTTPServer.xcodeproj">
+   </FileRef>
+</Workspace>

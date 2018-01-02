@@ -1,0 +1,14 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "01133a1d44a5a183c6f8044847420e9a"
+build_time: [1514451012, 232658000]
+inputs:
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/HTTPFilter.swift": [1514450984, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/HTTPHeaders.swift": [1514450984, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/HTTPMethod.swift": [1514450984, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/HTTPRequest.swift": [1514450984, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/HTTPResponse.swift": [1514450984, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/MimeReader.swift": [1514450984, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/MimeType.swift": [1514450984, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/Routing.swift": [1514450984, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/StaticFileHandler.swift": [1514450984, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/TypedRoutes.swift": [1514450984, 0]

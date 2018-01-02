@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/master.swiftdeps"
+  },
+  "/Users/macmini2/Desktop/framework/Perfect-MySQL/Sources/PerfectMySQL.swift": {
+    "dependencies": "/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/PerfectMySQL.d",
+    "object": "/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/PerfectMySQL.swift.o",
+    "swiftmodule": "/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/PerfectMySQL~partial.swiftmodule",
+    "swift-dependencies": "/Users/macmini2/Desktop/framework/Perfect-MySQL/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/PerfectMySQL.swiftdeps"
+  }
+}

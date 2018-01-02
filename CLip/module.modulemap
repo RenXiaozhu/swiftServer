@@ -1,0 +1,7 @@
+framework module PerfectCZlib {
+    umbrella header "PerfectCZlib.h"
+    
+    export *
+    module * { export * }
+}
+

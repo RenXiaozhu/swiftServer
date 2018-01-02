@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/master.swiftdeps"
+  },
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Duration.swift": {
+    "dependencies": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Duration.d",
+    "object": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Duration.swift.o",
+    "swiftmodule": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Duration~partial.swiftmodule",
+    "swift-dependencies": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Duration.swiftdeps"
+  },
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Extensions.swift": {
+    "dependencies": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Extensions.d",
+    "object": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Extensions.swift.o",
+    "swiftmodule": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Extensions.swiftdeps"
+  },
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Moment.swift": {
+    "dependencies": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Moment.d",
+    "object": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Moment.swift.o",
+    "swiftmodule": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Moment~partial.swiftmodule",
+    "swift-dependencies": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Moment.swiftdeps"
+  },
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/MomentFromNow.swift": {
+    "dependencies": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/MomentFromNow.d",
+    "object": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/MomentFromNow.swift.o",
+    "swiftmodule": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/MomentFromNow~partial.swiftmodule",
+    "swift-dependencies": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/MomentFromNow.swiftdeps"
+  },
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Operators.swift": {
+    "dependencies": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Operators.d",
+    "object": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Operators.swift.o",
+    "swiftmodule": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Operators~partial.swiftmodule",
+    "swift-dependencies": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Operators.swiftdeps"
+  },
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/TimeUnit.swift": {
+    "dependencies": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/TimeUnit.d",
+    "object": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/TimeUnit.swift.o",
+    "swiftmodule": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/TimeUnit~partial.swiftmodule",
+    "swift-dependencies": "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/TimeUnit.swiftdeps"
+  }
+}

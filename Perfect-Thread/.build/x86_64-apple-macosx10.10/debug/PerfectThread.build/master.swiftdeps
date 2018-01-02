@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "43d74d115f4ce98674655f09369308b9"
+build_time: [1514258076, 70952000]
+inputs:
+  "/Users/macmini2/Desktop/framework/Perfect-Thread/Sources/Promise.swift": [1514256936, 0]
+  "/Users/macmini2/Desktop/framework/Perfect-Thread/Sources/ThreadQueue.swift": [1514256936, 0]
+  "/Users/macmini2/Desktop/framework/Perfect-Thread/Sources/Threading.swift": [1514256936, 0]

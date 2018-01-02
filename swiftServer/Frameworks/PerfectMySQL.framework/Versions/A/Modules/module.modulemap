@@ -1,0 +1,4 @@
+framework module PerfectMySQL {
+    header "PerfectMySQL-Swift.h"
+    requires objc
+}

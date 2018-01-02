@@ -1,0 +1,2007 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"PerfectRequestLogger::PerfectRequestLoggerPackageTests::ProductTarget" /* PerfectRequestLoggerPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_1640 /* Build configuration list for PBXAggregateTarget "PerfectRequestLoggerPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_1643 /* PBXTargetDependency */,
+			);
+			name = PerfectRequestLoggerPackageTests;
+			productName = PerfectRequestLoggerPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		7A9E3AAB1FF38D21003040A4 /* PerfectCHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9E3AA91FF38D20003040A4 /* PerfectCHTTPParser.framework */; };
+		7A9E3AAD1FF38D21003040A4 /* PerfectHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9E3AAA1FF38D21003040A4 /* PerfectHTTPServer.framework */; };
+		7AB8528B1FF4EBD300D9BE36 /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB852911FF4EBD300D9BE36 /* COpenSSL.framework */; };
+		7AB8528C1FF4EBD300D9BE36 /* PerfectCHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB852921FF4EBD300D9BE36 /* PerfectCHTTPParser.framework */; };
+		7AB8528D1FF4EBD300D9BE36 /* PerfectHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB852931FF4EBD300D9BE36 /* PerfectHTTP.framework */; };
+		7AB8528E1FF4EBD300D9BE36 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB852941FF4EBD300D9BE36 /* PerfectLib.framework */; };
+		7AB8528F1FF4EBD300D9BE36 /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB852951FF4EBD300D9BE36 /* PerfectNet.framework */; };
+		7AB852901FF4EBD300D9BE36 /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB852961FF4EBD300D9BE36 /* PerfectThread.framework */; };
+		OBJ_766 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_808 /* PerfectRequestLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* PerfectRequestLoggerTests.swift */; };
+		OBJ_810 /* PerfectRequestLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectRequestLogger::PerfectRequestLogger::Product" /* PerfectRequestLogger.framework */; };
+		OBJ_838 /* PerfectRequestLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* PerfectRequestLogger.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A9E3A661FF37B26003040A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectRequestLogger::PerfectRequestLogger";
+			remoteInfo = PerfectRequestLogger;
+		};
+		7A9E3A6E1FF37B26003040A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectRequestLogger::PerfectRequestLoggerTests";
+			remoteInfo = PerfectRequestLoggerTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A9E3AA91FF38D20003040A4 /* PerfectCHTTPParser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PerfectCHTTPParser.framework; sourceTree = "<group>"; };
+		7A9E3AAA1FF38D21003040A4 /* PerfectHTTPServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PerfectHTTPServer.framework; sourceTree = "<group>"; };
+		7AB852911FF4EBD300D9BE36 /* COpenSSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = COpenSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB852921FF4EBD300D9BE36 /* PerfectCHTTPParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectCHTTPParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB852931FF4EBD300D9BE36 /* PerfectHTTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectHTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB852941FF4EBD300D9BE36 /* PerfectLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB852951FF4EBD300D9BE36 /* PerfectNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB852961FF4EBD300D9BE36 /* PerfectThread.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectThread.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_100 /* bf_lbuf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bf_lbuf.c; sourceTree = "<group>"; };
+		OBJ_101 /* bf_nbio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bf_nbio.c; sourceTree = "<group>"; };
+		OBJ_102 /* bf_null.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bf_null.c; sourceTree = "<group>"; };
+		OBJ_103 /* bf_ofb64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bf_ofb64.c; sourceTree = "<group>"; };
+		OBJ_104 /* bf_skey.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bf_skey.c; sourceTree = "<group>"; };
+		OBJ_105 /* bio_asn1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_asn1.c; sourceTree = "<group>"; };
+		OBJ_106 /* bio_b64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_b64.c; sourceTree = "<group>"; };
+		OBJ_107 /* bio_cb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_cb.c; sourceTree = "<group>"; };
+		OBJ_108 /* bio_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_enc.c; sourceTree = "<group>"; };
+		OBJ_109 /* bio_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_err.c; sourceTree = "<group>"; };
+		OBJ_11 /* PerfectRequestLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectRequestLoggerTests.swift; sourceTree = "<group>"; };
+		OBJ_110 /* bio_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_lib.c; sourceTree = "<group>"; };
+		OBJ_111 /* bio_md.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_md.c; sourceTree = "<group>"; };
+		OBJ_112 /* bio_ndef.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_ndef.c; sourceTree = "<group>"; };
+		OBJ_113 /* bio_ok.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_ok.c; sourceTree = "<group>"; };
+		OBJ_114 /* bio_pk7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_pk7.c; sourceTree = "<group>"; };
+		OBJ_115 /* bio_ssl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_ssl.c; sourceTree = "<group>"; };
+		OBJ_116 /* bn_add.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_add.c; sourceTree = "<group>"; };
+		OBJ_117 /* bn_asm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_asm.c; sourceTree = "<group>"; };
+		OBJ_118 /* bn_blind.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_blind.c; sourceTree = "<group>"; };
+		OBJ_119 /* bn_const.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_const.c; sourceTree = "<group>"; };
+		OBJ_120 /* bn_ctx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_ctx.c; sourceTree = "<group>"; };
+		OBJ_121 /* bn_depr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_depr.c; sourceTree = "<group>"; };
+		OBJ_122 /* bn_div.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_div.c; sourceTree = "<group>"; };
+		OBJ_123 /* bn_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_err.c; sourceTree = "<group>"; };
+		OBJ_124 /* bn_exp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_exp.c; sourceTree = "<group>"; };
+		OBJ_125 /* bn_exp2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_exp2.c; sourceTree = "<group>"; };
+		OBJ_126 /* bn_gcd.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_gcd.c; sourceTree = "<group>"; };
+		OBJ_127 /* bn_gf2m.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_gf2m.c; sourceTree = "<group>"; };
+		OBJ_128 /* bn_kron.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_kron.c; sourceTree = "<group>"; };
+		OBJ_129 /* bn_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_lib.c; sourceTree = "<group>"; };
+		OBJ_130 /* bn_mod.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_mod.c; sourceTree = "<group>"; };
+		OBJ_131 /* bn_mont.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_mont.c; sourceTree = "<group>"; };
+		OBJ_132 /* bn_mpi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_mpi.c; sourceTree = "<group>"; };
+		OBJ_133 /* bn_mul.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_mul.c; sourceTree = "<group>"; };
+		OBJ_134 /* bn_nist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_nist.c; sourceTree = "<group>"; };
+		OBJ_135 /* bn_prime.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_prime.c; sourceTree = "<group>"; };
+		OBJ_136 /* bn_print.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_print.c; sourceTree = "<group>"; };
+		OBJ_137 /* bn_rand.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_rand.c; sourceTree = "<group>"; };
+		OBJ_138 /* bn_recp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_recp.c; sourceTree = "<group>"; };
+		OBJ_139 /* bn_shift.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_shift.c; sourceTree = "<group>"; };
+		OBJ_140 /* bn_sqr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_sqr.c; sourceTree = "<group>"; };
+		OBJ_141 /* bn_sqrt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_sqrt.c; sourceTree = "<group>"; };
+		OBJ_142 /* bn_word.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_word.c; sourceTree = "<group>"; };
+		OBJ_143 /* bn_x931p.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_x931p.c; sourceTree = "<group>"; };
+		OBJ_144 /* bss_acpt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bss_acpt.c; sourceTree = "<group>"; };
+		OBJ_145 /* bss_bio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bss_bio.c; sourceTree = "<group>"; };
+		OBJ_146 /* bss_conn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bss_conn.c; sourceTree = "<group>"; };
+		OBJ_147 /* bss_dgram.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bss_dgram.c; sourceTree = "<group>"; };
+		OBJ_148 /* bss_fd.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bss_fd.c; sourceTree = "<group>"; };
+		OBJ_149 /* bss_file.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bss_file.c; sourceTree = "<group>"; };
+		OBJ_150 /* bss_log.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bss_log.c; sourceTree = "<group>"; };
+		OBJ_151 /* bss_mem.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bss_mem.c; sourceTree = "<group>"; };
+		OBJ_152 /* bss_null.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bss_null.c; sourceTree = "<group>"; };
+		OBJ_153 /* bss_sock.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bss_sock.c; sourceTree = "<group>"; };
+		OBJ_154 /* buf_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = buf_err.c; sourceTree = "<group>"; };
+		OBJ_155 /* buf_str.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = buf_str.c; sourceTree = "<group>"; };
+		OBJ_156 /* buffer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = buffer.c; sourceTree = "<group>"; };
+		OBJ_157 /* by_dir.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = by_dir.c; sourceTree = "<group>"; };
+		OBJ_158 /* by_file.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = by_file.c; sourceTree = "<group>"; };
+		OBJ_159 /* c_all.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c_all.c; sourceTree = "<group>"; };
+		OBJ_160 /* c_allc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c_allc.c; sourceTree = "<group>"; };
+		OBJ_161 /* c_alld.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c_alld.c; sourceTree = "<group>"; };
+		OBJ_162 /* c_cfb64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c_cfb64.c; sourceTree = "<group>"; };
+		OBJ_163 /* c_ecb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c_ecb.c; sourceTree = "<group>"; };
+		OBJ_164 /* c_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c_enc.c; sourceTree = "<group>"; };
+		OBJ_165 /* c_ofb64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c_ofb64.c; sourceTree = "<group>"; };
+		OBJ_166 /* c_rle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c_rle.c; sourceTree = "<group>"; };
+		OBJ_167 /* c_skey.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c_skey.c; sourceTree = "<group>"; };
+		OBJ_168 /* c_zlib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c_zlib.c; sourceTree = "<group>"; };
+		OBJ_169 /* camellia.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = camellia.c; sourceTree = "<group>"; };
+		OBJ_170 /* cbc128.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cbc128.c; sourceTree = "<group>"; };
+		OBJ_171 /* cbc3_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cbc3_enc.c; sourceTree = "<group>"; };
+		OBJ_172 /* cbc_cksm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cbc_cksm.c; sourceTree = "<group>"; };
+		OBJ_173 /* cbc_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cbc_enc.c; sourceTree = "<group>"; };
+		OBJ_174 /* ccm128.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ccm128.c; sourceTree = "<group>"; };
+		OBJ_175 /* cfb128.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cfb128.c; sourceTree = "<group>"; };
+		OBJ_176 /* cfb64ede.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cfb64ede.c; sourceTree = "<group>"; };
+		OBJ_177 /* cfb64enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cfb64enc.c; sourceTree = "<group>"; };
+		OBJ_178 /* cfb_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cfb_enc.c; sourceTree = "<group>"; };
+		OBJ_179 /* cm_ameth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cm_ameth.c; sourceTree = "<group>"; };
+		OBJ_180 /* cm_pmeth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cm_pmeth.c; sourceTree = "<group>"; };
+		OBJ_181 /* cmac.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cmac.c; sourceTree = "<group>"; };
+		OBJ_182 /* cmll_cbc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cmll_cbc.c; sourceTree = "<group>"; };
+		OBJ_183 /* cmll_cfb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cmll_cfb.c; sourceTree = "<group>"; };
+		OBJ_184 /* cmll_ctr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cmll_ctr.c; sourceTree = "<group>"; };
+		OBJ_185 /* cmll_ecb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cmll_ecb.c; sourceTree = "<group>"; };
+		OBJ_186 /* cmll_misc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cmll_misc.c; sourceTree = "<group>"; };
+		OBJ_187 /* cmll_ofb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cmll_ofb.c; sourceTree = "<group>"; };
+		OBJ_188 /* cmll_utl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cmll_utl.c; sourceTree = "<group>"; };
+		OBJ_189 /* cms_asn1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cms_asn1.c; sourceTree = "<group>"; };
+		OBJ_190 /* cms_att.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cms_att.c; sourceTree = "<group>"; };
+		OBJ_191 /* cms_cd.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cms_cd.c; sourceTree = "<group>"; };
+		OBJ_192 /* cms_dd.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cms_dd.c; sourceTree = "<group>"; };
+		OBJ_193 /* cms_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cms_enc.c; sourceTree = "<group>"; };
+		OBJ_194 /* cms_env.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cms_env.c; sourceTree = "<group>"; };
+		OBJ_195 /* cms_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cms_err.c; sourceTree = "<group>"; };
+		OBJ_196 /* cms_ess.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cms_ess.c; sourceTree = "<group>"; };
+		OBJ_197 /* cms_io.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cms_io.c; sourceTree = "<group>"; };
+		OBJ_198 /* cms_kari.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cms_kari.c; sourceTree = "<group>"; };
+		OBJ_199 /* cms_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cms_lib.c; sourceTree = "<group>"; };
+		OBJ_200 /* cms_pwri.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cms_pwri.c; sourceTree = "<group>"; };
+		OBJ_201 /* cms_sd.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cms_sd.c; sourceTree = "<group>"; };
+		OBJ_202 /* cms_smime.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cms_smime.c; sourceTree = "<group>"; };
+		OBJ_203 /* comp_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = comp_err.c; sourceTree = "<group>"; };
+		OBJ_204 /* comp_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = comp_lib.c; sourceTree = "<group>"; };
+		OBJ_205 /* conf_api.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = conf_api.c; sourceTree = "<group>"; };
+		OBJ_206 /* conf_def.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = conf_def.c; sourceTree = "<group>"; };
+		OBJ_207 /* conf_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = conf_err.c; sourceTree = "<group>"; };
+		OBJ_208 /* conf_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = conf_lib.c; sourceTree = "<group>"; };
+		OBJ_209 /* conf_mall.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = conf_mall.c; sourceTree = "<group>"; };
+		OBJ_210 /* conf_mod.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = conf_mod.c; sourceTree = "<group>"; };
+		OBJ_211 /* conf_sap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = conf_sap.c; sourceTree = "<group>"; };
+		OBJ_212 /* cpt_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cpt_err.c; sourceTree = "<group>"; };
+		OBJ_213 /* cryptlib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cryptlib.c; sourceTree = "<group>"; };
+		OBJ_214 /* ctr128.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ctr128.c; sourceTree = "<group>"; };
+		OBJ_215 /* cversion.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cversion.c; sourceTree = "<group>"; };
+		OBJ_216 /* d1_both.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = d1_both.c; sourceTree = "<group>"; };
+		OBJ_217 /* d1_clnt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = d1_clnt.c; sourceTree = "<group>"; };
+		OBJ_218 /* d1_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = d1_lib.c; sourceTree = "<group>"; };
+		OBJ_219 /* d1_meth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = d1_meth.c; sourceTree = "<group>"; };
+		OBJ_220 /* d1_pkt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = d1_pkt.c; sourceTree = "<group>"; };
+		OBJ_221 /* d1_srtp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = d1_srtp.c; sourceTree = "<group>"; };
+		OBJ_222 /* d1_srvr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = d1_srvr.c; sourceTree = "<group>"; };
+		OBJ_223 /* d2i_pr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = d2i_pr.c; sourceTree = "<group>"; };
+		OBJ_224 /* d2i_pu.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = d2i_pu.c; sourceTree = "<group>"; };
+		OBJ_225 /* des_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = des_enc.c; sourceTree = "<group>"; };
+		OBJ_226 /* des_old.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = des_old.c; sourceTree = "<group>"; };
+		OBJ_227 /* des_old2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = des_old2.c; sourceTree = "<group>"; };
+		OBJ_228 /* dh_ameth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dh_ameth.c; sourceTree = "<group>"; };
+		OBJ_229 /* dh_asn1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dh_asn1.c; sourceTree = "<group>"; };
+		OBJ_230 /* dh_check.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dh_check.c; sourceTree = "<group>"; };
+		OBJ_231 /* dh_depr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dh_depr.c; sourceTree = "<group>"; };
+		OBJ_232 /* dh_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dh_err.c; sourceTree = "<group>"; };
+		OBJ_233 /* dh_gen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dh_gen.c; sourceTree = "<group>"; };
+		OBJ_234 /* dh_kdf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dh_kdf.c; sourceTree = "<group>"; };
+		OBJ_235 /* dh_key.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dh_key.c; sourceTree = "<group>"; };
+		OBJ_236 /* dh_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dh_lib.c; sourceTree = "<group>"; };
+		OBJ_237 /* dh_pmeth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dh_pmeth.c; sourceTree = "<group>"; };
+		OBJ_238 /* dh_prn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dh_prn.c; sourceTree = "<group>"; };
+		OBJ_239 /* dh_rfc5114.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dh_rfc5114.c; sourceTree = "<group>"; };
+		OBJ_240 /* digest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = digest.c; sourceTree = "<group>"; };
+		OBJ_241 /* dsa_ameth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dsa_ameth.c; sourceTree = "<group>"; };
+		OBJ_242 /* dsa_asn1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dsa_asn1.c; sourceTree = "<group>"; };
+		OBJ_243 /* dsa_depr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dsa_depr.c; sourceTree = "<group>"; };
+		OBJ_244 /* dsa_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dsa_err.c; sourceTree = "<group>"; };
+		OBJ_245 /* dsa_gen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dsa_gen.c; sourceTree = "<group>"; };
+		OBJ_246 /* dsa_key.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dsa_key.c; sourceTree = "<group>"; };
+		OBJ_247 /* dsa_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dsa_lib.c; sourceTree = "<group>"; };
+		OBJ_248 /* dsa_ossl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dsa_ossl.c; sourceTree = "<group>"; };
+		OBJ_249 /* dsa_pmeth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dsa_pmeth.c; sourceTree = "<group>"; };
+		OBJ_250 /* dsa_prn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dsa_prn.c; sourceTree = "<group>"; };
+		OBJ_251 /* dsa_sign.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dsa_sign.c; sourceTree = "<group>"; };
+		OBJ_252 /* dsa_vrf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dsa_vrf.c; sourceTree = "<group>"; };
+		OBJ_253 /* dso_beos.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dso_beos.c; sourceTree = "<group>"; };
+		OBJ_254 /* dso_dl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dso_dl.c; sourceTree = "<group>"; };
+		OBJ_255 /* dso_dlfcn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dso_dlfcn.c; sourceTree = "<group>"; };
+		OBJ_256 /* dso_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dso_err.c; sourceTree = "<group>"; };
+		OBJ_257 /* dso_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dso_lib.c; sourceTree = "<group>"; };
+		OBJ_258 /* dso_null.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dso_null.c; sourceTree = "<group>"; };
+		OBJ_259 /* dso_openssl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dso_openssl.c; sourceTree = "<group>"; };
+		OBJ_260 /* dso_vms.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dso_vms.c; sourceTree = "<group>"; };
+		OBJ_261 /* dso_win32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dso_win32.c; sourceTree = "<group>"; };
+		OBJ_262 /* e_4758cca.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_4758cca.c; sourceTree = "<group>"; };
+		OBJ_263 /* e_4758cca_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_4758cca_err.c; sourceTree = "<group>"; };
+		OBJ_264 /* e_aep.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_aep.c; sourceTree = "<group>"; };
+		OBJ_265 /* e_aep_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_aep_err.c; sourceTree = "<group>"; };
+		OBJ_266 /* e_aes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_aes.c; sourceTree = "<group>"; };
+		OBJ_267 /* e_aes_cbc_hmac_sha1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_aes_cbc_hmac_sha1.c; sourceTree = "<group>"; };
+		OBJ_268 /* e_aes_cbc_hmac_sha256.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_aes_cbc_hmac_sha256.c; sourceTree = "<group>"; };
+		OBJ_269 /* e_atalla.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_atalla.c; sourceTree = "<group>"; };
+		OBJ_270 /* e_atalla_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_atalla_err.c; sourceTree = "<group>"; };
+		OBJ_271 /* e_bf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_bf.c; sourceTree = "<group>"; };
+		OBJ_272 /* e_camellia.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_camellia.c; sourceTree = "<group>"; };
+		OBJ_273 /* e_capi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_capi.c; sourceTree = "<group>"; };
+		OBJ_274 /* e_capi_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_capi_err.c; sourceTree = "<group>"; };
+		OBJ_275 /* e_cast.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_cast.c; sourceTree = "<group>"; };
+		OBJ_276 /* e_chil.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_chil.c; sourceTree = "<group>"; };
+		OBJ_277 /* e_chil_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_chil_err.c; sourceTree = "<group>"; };
+		OBJ_278 /* e_cswift.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_cswift.c; sourceTree = "<group>"; };
+		OBJ_279 /* e_cswift_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_cswift_err.c; sourceTree = "<group>"; };
+		OBJ_280 /* e_des.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_des.c; sourceTree = "<group>"; };
+		OBJ_281 /* e_des3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_des3.c; sourceTree = "<group>"; };
+		OBJ_282 /* e_gmp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_gmp.c; sourceTree = "<group>"; };
+		OBJ_283 /* e_gmp_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_gmp_err.c; sourceTree = "<group>"; };
+		OBJ_284 /* e_gost_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_gost_err.c; sourceTree = "<group>"; };
+		OBJ_285 /* e_idea.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_idea.c; sourceTree = "<group>"; };
+		OBJ_286 /* e_null.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_null.c; sourceTree = "<group>"; };
+		OBJ_287 /* e_nuron.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_nuron.c; sourceTree = "<group>"; };
+		OBJ_288 /* e_nuron_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_nuron_err.c; sourceTree = "<group>"; };
+		OBJ_289 /* e_old.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_old.c; sourceTree = "<group>"; };
+		OBJ_29 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Package.swift"; sourceTree = "<group>"; };
+		OBJ_290 /* e_padlock.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_padlock.c; sourceTree = "<group>"; };
+		OBJ_291 /* e_rc2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_rc2.c; sourceTree = "<group>"; };
+		OBJ_292 /* e_rc4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_rc4.c; sourceTree = "<group>"; };
+		OBJ_293 /* e_rc4_hmac_md5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_rc4_hmac_md5.c; sourceTree = "<group>"; };
+		OBJ_294 /* e_rc5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_rc5.c; sourceTree = "<group>"; };
+		OBJ_295 /* e_seed.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_seed.c; sourceTree = "<group>"; };
+		OBJ_296 /* e_sureware.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_sureware.c; sourceTree = "<group>"; };
+		OBJ_297 /* e_sureware_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_sureware_err.c; sourceTree = "<group>"; };
+		OBJ_298 /* e_ubsec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_ubsec.c; sourceTree = "<group>"; };
+		OBJ_299 /* e_ubsec_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_ubsec_err.c; sourceTree = "<group>"; };
+		OBJ_30 /* HTTPFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPFilter.swift; sourceTree = "<group>"; };
+		OBJ_300 /* e_xcbc_d.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_xcbc_d.c; sourceTree = "<group>"; };
+		OBJ_301 /* ebcdic.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ebcdic.c; sourceTree = "<group>"; };
+		OBJ_302 /* ec2_mult.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ec2_mult.c; sourceTree = "<group>"; };
+		OBJ_303 /* ec2_oct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ec2_oct.c; sourceTree = "<group>"; };
+		OBJ_304 /* ec2_smpl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ec2_smpl.c; sourceTree = "<group>"; };
+		OBJ_305 /* ec_ameth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ec_ameth.c; sourceTree = "<group>"; };
+		OBJ_306 /* ec_asn1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ec_asn1.c; sourceTree = "<group>"; };
+		OBJ_307 /* ec_check.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ec_check.c; sourceTree = "<group>"; };
+		OBJ_308 /* ec_curve.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ec_curve.c; sourceTree = "<group>"; };
+		OBJ_309 /* ec_cvt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ec_cvt.c; sourceTree = "<group>"; };
+		OBJ_31 /* HTTPHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHeaders.swift; sourceTree = "<group>"; };
+		OBJ_310 /* ec_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ec_err.c; sourceTree = "<group>"; };
+		OBJ_311 /* ec_key.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ec_key.c; sourceTree = "<group>"; };
+		OBJ_312 /* ec_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ec_lib.c; sourceTree = "<group>"; };
+		OBJ_313 /* ec_mult.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ec_mult.c; sourceTree = "<group>"; };
+		OBJ_314 /* ec_oct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ec_oct.c; sourceTree = "<group>"; };
+		OBJ_315 /* ec_pmeth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ec_pmeth.c; sourceTree = "<group>"; };
+		OBJ_316 /* ec_print.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ec_print.c; sourceTree = "<group>"; };
+		OBJ_317 /* ecb3_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecb3_enc.c; sourceTree = "<group>"; };
+		OBJ_318 /* ecb_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecb_enc.c; sourceTree = "<group>"; };
+		OBJ_319 /* ech_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ech_err.c; sourceTree = "<group>"; };
+		OBJ_32 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		OBJ_320 /* ech_kdf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ech_kdf.c; sourceTree = "<group>"; };
+		OBJ_321 /* ech_key.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ech_key.c; sourceTree = "<group>"; };
+		OBJ_322 /* ech_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ech_lib.c; sourceTree = "<group>"; };
+		OBJ_323 /* ech_ossl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ech_ossl.c; sourceTree = "<group>"; };
+		OBJ_324 /* eck_prn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = eck_prn.c; sourceTree = "<group>"; };
+		OBJ_325 /* ecp_mont.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecp_mont.c; sourceTree = "<group>"; };
+		OBJ_326 /* ecp_nist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecp_nist.c; sourceTree = "<group>"; };
+		OBJ_327 /* ecp_nistp224.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecp_nistp224.c; sourceTree = "<group>"; };
+		OBJ_328 /* ecp_nistp256.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecp_nistp256.c; sourceTree = "<group>"; };
+		OBJ_329 /* ecp_nistp521.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecp_nistp521.c; sourceTree = "<group>"; };
+		OBJ_33 /* HTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		OBJ_330 /* ecp_nistputil.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecp_nistputil.c; sourceTree = "<group>"; };
+		OBJ_331 /* ecp_oct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecp_oct.c; sourceTree = "<group>"; };
+		OBJ_332 /* ecp_smpl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecp_smpl.c; sourceTree = "<group>"; };
+		OBJ_333 /* ecs_asn1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecs_asn1.c; sourceTree = "<group>"; };
+		OBJ_334 /* ecs_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecs_err.c; sourceTree = "<group>"; };
+		OBJ_335 /* ecs_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecs_lib.c; sourceTree = "<group>"; };
+		OBJ_336 /* ecs_ossl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecs_ossl.c; sourceTree = "<group>"; };
+		OBJ_337 /* ecs_sign.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecs_sign.c; sourceTree = "<group>"; };
+		OBJ_338 /* ecs_vrf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecs_vrf.c; sourceTree = "<group>"; };
+		OBJ_339 /* ede_cbcm_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ede_cbcm_enc.c; sourceTree = "<group>"; };
+		OBJ_34 /* HTTPResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPResponse.swift; sourceTree = "<group>"; };
+		OBJ_340 /* enc_read.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = enc_read.c; sourceTree = "<group>"; };
+		OBJ_341 /* enc_writ.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = enc_writ.c; sourceTree = "<group>"; };
+		OBJ_342 /* encode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = encode.c; sourceTree = "<group>"; };
+		OBJ_343 /* eng_all.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = eng_all.c; sourceTree = "<group>"; };
+		OBJ_344 /* eng_cnf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = eng_cnf.c; sourceTree = "<group>"; };
+		OBJ_345 /* eng_cryptodev.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = eng_cryptodev.c; sourceTree = "<group>"; };
+		OBJ_346 /* eng_ctrl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = eng_ctrl.c; sourceTree = "<group>"; };
+		OBJ_347 /* eng_dyn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = eng_dyn.c; sourceTree = "<group>"; };
+		OBJ_348 /* eng_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = eng_err.c; sourceTree = "<group>"; };
+		OBJ_349 /* eng_fat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = eng_fat.c; sourceTree = "<group>"; };
+		OBJ_35 /* MimeReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimeReader.swift; sourceTree = "<group>"; };
+		OBJ_350 /* eng_init.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = eng_init.c; sourceTree = "<group>"; };
+		OBJ_351 /* eng_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = eng_lib.c; sourceTree = "<group>"; };
+		OBJ_352 /* eng_list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = eng_list.c; sourceTree = "<group>"; };
+		OBJ_353 /* eng_openssl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = eng_openssl.c; sourceTree = "<group>"; };
+		OBJ_354 /* eng_pkey.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = eng_pkey.c; sourceTree = "<group>"; };
+		OBJ_355 /* eng_rdrand.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = eng_rdrand.c; sourceTree = "<group>"; };
+		OBJ_356 /* eng_table.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = eng_table.c; sourceTree = "<group>"; };
+		OBJ_357 /* err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = err.c; sourceTree = "<group>"; };
+		OBJ_358 /* err_all.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = err_all.c; sourceTree = "<group>"; };
+		OBJ_359 /* err_prn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = err_prn.c; sourceTree = "<group>"; };
+		OBJ_36 /* MimeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimeType.swift; sourceTree = "<group>"; };
+		OBJ_360 /* evp_acnf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = evp_acnf.c; sourceTree = "<group>"; };
+		OBJ_361 /* evp_asn1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = evp_asn1.c; sourceTree = "<group>"; };
+		OBJ_362 /* evp_cnf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = evp_cnf.c; sourceTree = "<group>"; };
+		OBJ_363 /* evp_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = evp_enc.c; sourceTree = "<group>"; };
+		OBJ_364 /* evp_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = evp_err.c; sourceTree = "<group>"; };
+		OBJ_365 /* evp_key.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = evp_key.c; sourceTree = "<group>"; };
+		OBJ_366 /* evp_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = evp_lib.c; sourceTree = "<group>"; };
+		OBJ_367 /* evp_pbe.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = evp_pbe.c; sourceTree = "<group>"; };
+		OBJ_368 /* evp_pkey.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = evp_pkey.c; sourceTree = "<group>"; };
+		OBJ_369 /* ex_data.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex_data.c; sourceTree = "<group>"; };
+		OBJ_37 /* Routing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routing.swift; sourceTree = "<group>"; };
+		OBJ_370 /* f_enum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = f_enum.c; sourceTree = "<group>"; };
+		OBJ_371 /* f_int.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = f_int.c; sourceTree = "<group>"; };
+		OBJ_372 /* f_string.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = f_string.c; sourceTree = "<group>"; };
+		OBJ_373 /* fcrypt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fcrypt.c; sourceTree = "<group>"; };
+		OBJ_374 /* fcrypt_b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fcrypt_b.c; sourceTree = "<group>"; };
+		OBJ_375 /* fips_ers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fips_ers.c; sourceTree = "<group>"; };
+		OBJ_376 /* gcm128.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gcm128.c; sourceTree = "<group>"; };
+		OBJ_377 /* gost2001.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gost2001.c; sourceTree = "<group>"; };
+		OBJ_378 /* gost2001_keyx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gost2001_keyx.c; sourceTree = "<group>"; };
+		OBJ_379 /* gost89.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gost89.c; sourceTree = "<group>"; };
+		OBJ_38 /* StaticFileHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticFileHandler.swift; sourceTree = "<group>"; };
+		OBJ_380 /* gost94_keyx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gost94_keyx.c; sourceTree = "<group>"; };
+		OBJ_381 /* gost_ameth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gost_ameth.c; sourceTree = "<group>"; };
+		OBJ_382 /* gost_asn1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gost_asn1.c; sourceTree = "<group>"; };
+		OBJ_383 /* gost_crypt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gost_crypt.c; sourceTree = "<group>"; };
+		OBJ_384 /* gost_ctl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gost_ctl.c; sourceTree = "<group>"; };
+		OBJ_385 /* gost_eng.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gost_eng.c; sourceTree = "<group>"; };
+		OBJ_386 /* gost_keywrap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gost_keywrap.c; sourceTree = "<group>"; };
+		OBJ_387 /* gost_md.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gost_md.c; sourceTree = "<group>"; };
+		OBJ_388 /* gost_params.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gost_params.c; sourceTree = "<group>"; };
+		OBJ_389 /* gost_pmeth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gost_pmeth.c; sourceTree = "<group>"; };
+		OBJ_390 /* gost_sign.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gost_sign.c; sourceTree = "<group>"; };
+		OBJ_391 /* gosthash.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gosthash.c; sourceTree = "<group>"; };
+		OBJ_392 /* hm_ameth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hm_ameth.c; sourceTree = "<group>"; };
+		OBJ_393 /* hm_pmeth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hm_pmeth.c; sourceTree = "<group>"; };
+		OBJ_394 /* hmac.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		OBJ_395 /* i2d_pr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = i2d_pr.c; sourceTree = "<group>"; };
+		OBJ_396 /* i2d_pu.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = i2d_pu.c; sourceTree = "<group>"; };
+		OBJ_397 /* i_cbc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = i_cbc.c; sourceTree = "<group>"; };
+		OBJ_398 /* i_cfb64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = i_cfb64.c; sourceTree = "<group>"; };
+		OBJ_399 /* i_ecb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = i_ecb.c; sourceTree = "<group>"; };
+		OBJ_40 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/.build/checkouts/Perfect-Net.git-3268755499654502659/Package.swift"; sourceTree = "<group>"; };
+		OBJ_400 /* i_ofb64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = i_ofb64.c; sourceTree = "<group>"; };
+		OBJ_401 /* i_skey.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = i_skey.c; sourceTree = "<group>"; };
+		OBJ_402 /* krb5_asn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = krb5_asn.c; sourceTree = "<group>"; };
+		OBJ_403 /* kssl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = kssl.c; sourceTree = "<group>"; };
+		OBJ_404 /* lh_stats.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lh_stats.c; sourceTree = "<group>"; };
+		OBJ_405 /* lhash.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lhash.c; sourceTree = "<group>"; };
+		OBJ_406 /* m_dss.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_dss.c; sourceTree = "<group>"; };
+		OBJ_407 /* m_dss1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_dss1.c; sourceTree = "<group>"; };
+		OBJ_408 /* m_ecdsa.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_ecdsa.c; sourceTree = "<group>"; };
+		OBJ_409 /* m_md2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_md2.c; sourceTree = "<group>"; };
+		OBJ_41 /* Net.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Net.swift; sourceTree = "<group>"; };
+		OBJ_410 /* m_md4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_md4.c; sourceTree = "<group>"; };
+		OBJ_411 /* m_md5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_md5.c; sourceTree = "<group>"; };
+		OBJ_412 /* m_mdc2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_mdc2.c; sourceTree = "<group>"; };
+		OBJ_413 /* m_null.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_null.c; sourceTree = "<group>"; };
+		OBJ_414 /* m_ripemd.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_ripemd.c; sourceTree = "<group>"; };
+		OBJ_415 /* m_sha.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_sha.c; sourceTree = "<group>"; };
+		OBJ_416 /* m_sha1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_sha1.c; sourceTree = "<group>"; };
+		OBJ_417 /* m_sigver.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_sigver.c; sourceTree = "<group>"; };
+		OBJ_418 /* m_wp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_wp.c; sourceTree = "<group>"; };
+		OBJ_419 /* md4_dgst.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = md4_dgst.c; sourceTree = "<group>"; };
+		OBJ_42 /* NetEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetEvent.swift; sourceTree = "<group>"; };
+		OBJ_420 /* md4_one.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = md4_one.c; sourceTree = "<group>"; };
+		OBJ_421 /* md5_dgst.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = md5_dgst.c; sourceTree = "<group>"; };
+		OBJ_422 /* md5_one.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = md5_one.c; sourceTree = "<group>"; };
+		OBJ_423 /* md_rand.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = md_rand.c; sourceTree = "<group>"; };
+		OBJ_424 /* mdc2_one.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mdc2_one.c; sourceTree = "<group>"; };
+		OBJ_425 /* mdc2dgst.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mdc2dgst.c; sourceTree = "<group>"; };
+		OBJ_426 /* mem.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mem.c; sourceTree = "<group>"; };
+		OBJ_427 /* mem_clr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mem_clr.c; sourceTree = "<group>"; };
+		OBJ_428 /* mem_dbg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mem_dbg.c; sourceTree = "<group>"; };
+		OBJ_429 /* n_pkey.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = n_pkey.c; sourceTree = "<group>"; };
+		OBJ_43 /* NetNamedPipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetNamedPipe.swift; sourceTree = "<group>"; };
+		OBJ_430 /* names.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = names.c; sourceTree = "<group>"; };
+		OBJ_431 /* nsseq.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = nsseq.c; sourceTree = "<group>"; };
+		OBJ_432 /* o_dir.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = o_dir.c; sourceTree = "<group>"; };
+		OBJ_433 /* o_fips.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = o_fips.c; sourceTree = "<group>"; };
+		OBJ_434 /* o_init.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = o_init.c; sourceTree = "<group>"; };
+		OBJ_435 /* o_names.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = o_names.c; sourceTree = "<group>"; };
+		OBJ_436 /* o_str.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = o_str.c; sourceTree = "<group>"; };
+		OBJ_437 /* o_time.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = o_time.c; sourceTree = "<group>"; };
+		OBJ_438 /* obj_dat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = obj_dat.c; sourceTree = "<group>"; };
+		OBJ_439 /* obj_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = obj_err.c; sourceTree = "<group>"; };
+		OBJ_44 /* NetTCP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetTCP.swift; sourceTree = "<group>"; };
+		OBJ_440 /* obj_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = obj_lib.c; sourceTree = "<group>"; };
+		OBJ_441 /* obj_xref.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = obj_xref.c; sourceTree = "<group>"; };
+		OBJ_442 /* ocsp_asn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ocsp_asn.c; sourceTree = "<group>"; };
+		OBJ_443 /* ocsp_cl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ocsp_cl.c; sourceTree = "<group>"; };
+		OBJ_444 /* ocsp_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ocsp_err.c; sourceTree = "<group>"; };
+		OBJ_445 /* ocsp_ext.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ocsp_ext.c; sourceTree = "<group>"; };
+		OBJ_446 /* ocsp_ht.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ocsp_ht.c; sourceTree = "<group>"; };
+		OBJ_447 /* ocsp_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ocsp_lib.c; sourceTree = "<group>"; };
+		OBJ_448 /* ocsp_prn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ocsp_prn.c; sourceTree = "<group>"; };
+		OBJ_449 /* ocsp_srv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ocsp_srv.c; sourceTree = "<group>"; };
+		OBJ_45 /* NetTCPSSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetTCPSSL.swift; sourceTree = "<group>"; };
+		OBJ_450 /* ocsp_vfy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ocsp_vfy.c; sourceTree = "<group>"; };
+		OBJ_451 /* ofb128.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ofb128.c; sourceTree = "<group>"; };
+		OBJ_452 /* ofb64ede.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ofb64ede.c; sourceTree = "<group>"; };
+		OBJ_453 /* ofb64enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ofb64enc.c; sourceTree = "<group>"; };
+		OBJ_454 /* ofb_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ofb_enc.c; sourceTree = "<group>"; };
+		OBJ_455 /* openbsd_hw.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = openbsd_hw.c; sourceTree = "<group>"; };
+		OBJ_456 /* p12_add.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p12_add.c; sourceTree = "<group>"; };
+		OBJ_457 /* p12_asn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p12_asn.c; sourceTree = "<group>"; };
+		OBJ_458 /* p12_attr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p12_attr.c; sourceTree = "<group>"; };
+		OBJ_459 /* p12_crpt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p12_crpt.c; sourceTree = "<group>"; };
+		OBJ_460 /* p12_crt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p12_crt.c; sourceTree = "<group>"; };
+		OBJ_461 /* p12_decr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p12_decr.c; sourceTree = "<group>"; };
+		OBJ_462 /* p12_init.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p12_init.c; sourceTree = "<group>"; };
+		OBJ_463 /* p12_key.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p12_key.c; sourceTree = "<group>"; };
+		OBJ_464 /* p12_kiss.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p12_kiss.c; sourceTree = "<group>"; };
+		OBJ_465 /* p12_mutl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p12_mutl.c; sourceTree = "<group>"; };
+		OBJ_466 /* p12_npas.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p12_npas.c; sourceTree = "<group>"; };
+		OBJ_467 /* p12_p8d.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p12_p8d.c; sourceTree = "<group>"; };
+		OBJ_468 /* p12_p8e.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p12_p8e.c; sourceTree = "<group>"; };
+		OBJ_469 /* p12_utl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p12_utl.c; sourceTree = "<group>"; };
+		OBJ_47 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/.build/checkouts/Perfect-Thread.git-6541237758607105655/Package.swift"; sourceTree = "<group>"; };
+		OBJ_470 /* p5_crpt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p5_crpt.c; sourceTree = "<group>"; };
+		OBJ_471 /* p5_crpt2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p5_crpt2.c; sourceTree = "<group>"; };
+		OBJ_472 /* p5_pbe.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p5_pbe.c; sourceTree = "<group>"; };
+		OBJ_473 /* p5_pbev2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p5_pbev2.c; sourceTree = "<group>"; };
+		OBJ_474 /* p8_pkey.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p8_pkey.c; sourceTree = "<group>"; };
+		OBJ_475 /* p_dec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_dec.c; sourceTree = "<group>"; };
+		OBJ_476 /* p_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_enc.c; sourceTree = "<group>"; };
+		OBJ_477 /* p_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_lib.c; sourceTree = "<group>"; };
+		OBJ_478 /* p_open.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_open.c; sourceTree = "<group>"; };
+		OBJ_479 /* p_seal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_seal.c; sourceTree = "<group>"; };
+		OBJ_48 /* Promise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
+		OBJ_480 /* p_sign.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_sign.c; sourceTree = "<group>"; };
+		OBJ_481 /* p_verify.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_verify.c; sourceTree = "<group>"; };
+		OBJ_482 /* pcbc_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pcbc_enc.c; sourceTree = "<group>"; };
+		OBJ_483 /* pcy_cache.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pcy_cache.c; sourceTree = "<group>"; };
+		OBJ_484 /* pcy_data.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pcy_data.c; sourceTree = "<group>"; };
+		OBJ_485 /* pcy_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pcy_lib.c; sourceTree = "<group>"; };
+		OBJ_486 /* pcy_map.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pcy_map.c; sourceTree = "<group>"; };
+		OBJ_487 /* pcy_node.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pcy_node.c; sourceTree = "<group>"; };
+		OBJ_488 /* pcy_tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pcy_tree.c; sourceTree = "<group>"; };
+		OBJ_489 /* pem_all.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pem_all.c; sourceTree = "<group>"; };
+		OBJ_49 /* ThreadQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadQueue.swift; sourceTree = "<group>"; };
+		OBJ_490 /* pem_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pem_err.c; sourceTree = "<group>"; };
+		OBJ_491 /* pem_info.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pem_info.c; sourceTree = "<group>"; };
+		OBJ_492 /* pem_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pem_lib.c; sourceTree = "<group>"; };
+		OBJ_493 /* pem_oth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pem_oth.c; sourceTree = "<group>"; };
+		OBJ_494 /* pem_pk8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pem_pk8.c; sourceTree = "<group>"; };
+		OBJ_495 /* pem_pkey.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pem_pkey.c; sourceTree = "<group>"; };
+		OBJ_496 /* pem_seal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pem_seal.c; sourceTree = "<group>"; };
+		OBJ_497 /* pem_sign.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pem_sign.c; sourceTree = "<group>"; };
+		OBJ_498 /* pem_x509.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pem_x509.c; sourceTree = "<group>"; };
+		OBJ_499 /* pem_xaux.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pem_xaux.c; sourceTree = "<group>"; };
+		OBJ_50 /* Threading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Threading.swift; sourceTree = "<group>"; };
+		OBJ_500 /* pk12err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pk12err.c; sourceTree = "<group>"; };
+		OBJ_501 /* pk7_asn1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pk7_asn1.c; sourceTree = "<group>"; };
+		OBJ_502 /* pk7_attr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pk7_attr.c; sourceTree = "<group>"; };
+		OBJ_503 /* pk7_dgst.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pk7_dgst.c; sourceTree = "<group>"; };
+		OBJ_504 /* pk7_doit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pk7_doit.c; sourceTree = "<group>"; };
+		OBJ_505 /* pk7_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pk7_lib.c; sourceTree = "<group>"; };
+		OBJ_506 /* pk7_mime.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pk7_mime.c; sourceTree = "<group>"; };
+		OBJ_507 /* pk7_smime.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pk7_smime.c; sourceTree = "<group>"; };
+		OBJ_508 /* pkcs7err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pkcs7err.c; sourceTree = "<group>"; };
+		OBJ_509 /* pmeth_fn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pmeth_fn.c; sourceTree = "<group>"; };
+		OBJ_510 /* pmeth_gn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pmeth_gn.c; sourceTree = "<group>"; };
+		OBJ_511 /* pmeth_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pmeth_lib.c; sourceTree = "<group>"; };
+		OBJ_512 /* pqueue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pqueue.c; sourceTree = "<group>"; };
+		OBJ_513 /* pvkfmt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pvkfmt.c; sourceTree = "<group>"; };
+		OBJ_514 /* qud_cksm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = qud_cksm.c; sourceTree = "<group>"; };
+		OBJ_515 /* rand_egd.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rand_egd.c; sourceTree = "<group>"; };
+		OBJ_516 /* rand_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rand_err.c; sourceTree = "<group>"; };
+		OBJ_517 /* rand_key.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rand_key.c; sourceTree = "<group>"; };
+		OBJ_518 /* rand_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rand_lib.c; sourceTree = "<group>"; };
+		OBJ_519 /* rand_nw.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rand_nw.c; sourceTree = "<group>"; };
+		OBJ_520 /* rand_os2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rand_os2.c; sourceTree = "<group>"; };
+		OBJ_521 /* rand_unix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rand_unix.c; sourceTree = "<group>"; };
+		OBJ_522 /* rand_vms.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rand_vms.c; sourceTree = "<group>"; };
+		OBJ_523 /* rand_win.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rand_win.c; sourceTree = "<group>"; };
+		OBJ_524 /* randfile.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = randfile.c; sourceTree = "<group>"; };
+		OBJ_525 /* rc2_cbc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rc2_cbc.c; sourceTree = "<group>"; };
+		OBJ_526 /* rc2_ecb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rc2_ecb.c; sourceTree = "<group>"; };
+		OBJ_527 /* rc2_skey.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rc2_skey.c; sourceTree = "<group>"; };
+		OBJ_528 /* rc2cfb64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rc2cfb64.c; sourceTree = "<group>"; };
+		OBJ_529 /* rc2ofb64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rc2ofb64.c; sourceTree = "<group>"; };
+		OBJ_53 /* a_bitstr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_bitstr.c; sourceTree = "<group>"; };
+		OBJ_530 /* rc4_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rc4_enc.c; sourceTree = "<group>"; };
+		OBJ_531 /* rc4_skey.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rc4_skey.c; sourceTree = "<group>"; };
+		OBJ_532 /* rc4_utl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rc4_utl.c; sourceTree = "<group>"; };
+		OBJ_533 /* read2pwd.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = read2pwd.c; sourceTree = "<group>"; };
+		OBJ_534 /* rmd_dgst.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rmd_dgst.c; sourceTree = "<group>"; };
+		OBJ_535 /* rmd_one.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rmd_one.c; sourceTree = "<group>"; };
+		OBJ_536 /* rpc_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rpc_enc.c; sourceTree = "<group>"; };
+		OBJ_537 /* rsa_ameth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rsa_ameth.c; sourceTree = "<group>"; };
+		OBJ_538 /* rsa_asn1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rsa_asn1.c; sourceTree = "<group>"; };
+		OBJ_539 /* rsa_chk.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rsa_chk.c; sourceTree = "<group>"; };
+		OBJ_54 /* a_bool.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_bool.c; sourceTree = "<group>"; };
+		OBJ_540 /* rsa_crpt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rsa_crpt.c; sourceTree = "<group>"; };
+		OBJ_541 /* rsa_depr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rsa_depr.c; sourceTree = "<group>"; };
+		OBJ_542 /* rsa_eay.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rsa_eay.c; sourceTree = "<group>"; };
+		OBJ_543 /* rsa_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rsa_err.c; sourceTree = "<group>"; };
+		OBJ_544 /* rsa_gen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rsa_gen.c; sourceTree = "<group>"; };
+		OBJ_545 /* rsa_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rsa_lib.c; sourceTree = "<group>"; };
+		OBJ_546 /* rsa_none.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rsa_none.c; sourceTree = "<group>"; };
+		OBJ_547 /* rsa_null.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rsa_null.c; sourceTree = "<group>"; };
+		OBJ_548 /* rsa_oaep.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rsa_oaep.c; sourceTree = "<group>"; };
+		OBJ_549 /* rsa_pk1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rsa_pk1.c; sourceTree = "<group>"; };
+		OBJ_55 /* a_bytes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_bytes.c; sourceTree = "<group>"; };
+		OBJ_550 /* rsa_pmeth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rsa_pmeth.c; sourceTree = "<group>"; };
+		OBJ_551 /* rsa_prn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rsa_prn.c; sourceTree = "<group>"; };
+		OBJ_552 /* rsa_pss.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rsa_pss.c; sourceTree = "<group>"; };
+		OBJ_553 /* rsa_saos.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rsa_saos.c; sourceTree = "<group>"; };
+		OBJ_554 /* rsa_sign.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rsa_sign.c; sourceTree = "<group>"; };
+		OBJ_555 /* rsa_ssl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rsa_ssl.c; sourceTree = "<group>"; };
+		OBJ_556 /* rsa_x931.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rsa_x931.c; sourceTree = "<group>"; };
+		OBJ_557 /* rsaz_exp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rsaz_exp.c; sourceTree = "<group>"; };
+		OBJ_558 /* s23_clnt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s23_clnt.c; sourceTree = "<group>"; };
+		OBJ_559 /* s23_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s23_lib.c; sourceTree = "<group>"; };
+		OBJ_56 /* a_d2i_fp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_d2i_fp.c; sourceTree = "<group>"; };
+		OBJ_560 /* s23_meth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s23_meth.c; sourceTree = "<group>"; };
+		OBJ_561 /* s23_pkt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s23_pkt.c; sourceTree = "<group>"; };
+		OBJ_562 /* s23_srvr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s23_srvr.c; sourceTree = "<group>"; };
+		OBJ_563 /* s2_clnt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s2_clnt.c; sourceTree = "<group>"; };
+		OBJ_564 /* s2_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s2_enc.c; sourceTree = "<group>"; };
+		OBJ_565 /* s2_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s2_lib.c; sourceTree = "<group>"; };
+		OBJ_566 /* s2_meth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s2_meth.c; sourceTree = "<group>"; };
+		OBJ_567 /* s2_pkt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s2_pkt.c; sourceTree = "<group>"; };
+		OBJ_568 /* s2_srvr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s2_srvr.c; sourceTree = "<group>"; };
+		OBJ_569 /* s3_both.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s3_both.c; sourceTree = "<group>"; };
+		OBJ_57 /* a_digest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_digest.c; sourceTree = "<group>"; };
+		OBJ_570 /* s3_cbc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s3_cbc.c; sourceTree = "<group>"; };
+		OBJ_571 /* s3_clnt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s3_clnt.c; sourceTree = "<group>"; };
+		OBJ_572 /* s3_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s3_enc.c; sourceTree = "<group>"; };
+		OBJ_573 /* s3_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s3_lib.c; sourceTree = "<group>"; };
+		OBJ_574 /* s3_meth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s3_meth.c; sourceTree = "<group>"; };
+		OBJ_575 /* s3_pkt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s3_pkt.c; sourceTree = "<group>"; };
+		OBJ_576 /* s3_srvr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s3_srvr.c; sourceTree = "<group>"; };
+		OBJ_577 /* seed.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = seed.c; sourceTree = "<group>"; };
+		OBJ_578 /* seed_cbc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = seed_cbc.c; sourceTree = "<group>"; };
+		OBJ_579 /* seed_cfb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = seed_cfb.c; sourceTree = "<group>"; };
+		OBJ_58 /* a_dup.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_dup.c; sourceTree = "<group>"; };
+		OBJ_580 /* seed_ecb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = seed_ecb.c; sourceTree = "<group>"; };
+		OBJ_581 /* seed_ofb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = seed_ofb.c; sourceTree = "<group>"; };
+		OBJ_582 /* set_key.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = set_key.c; sourceTree = "<group>"; };
+		OBJ_583 /* sha1_one.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sha1_one.c; sourceTree = "<group>"; };
+		OBJ_584 /* sha1dgst.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sha1dgst.c; sourceTree = "<group>"; };
+		OBJ_585 /* sha256.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sha256.c; sourceTree = "<group>"; };
+		OBJ_586 /* sha512.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sha512.c; sourceTree = "<group>"; };
+		OBJ_587 /* sha_dgst.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sha_dgst.c; sourceTree = "<group>"; };
+		OBJ_588 /* sha_one.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sha_one.c; sourceTree = "<group>"; };
+		OBJ_589 /* srp_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = srp_lib.c; sourceTree = "<group>"; };
+		OBJ_59 /* a_enum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_enum.c; sourceTree = "<group>"; };
+		OBJ_590 /* srp_vfy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = srp_vfy.c; sourceTree = "<group>"; };
+		OBJ_591 /* ssl_algs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ssl_algs.c; sourceTree = "<group>"; };
+		OBJ_592 /* ssl_asn1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ssl_asn1.c; sourceTree = "<group>"; };
+		OBJ_593 /* ssl_cert.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ssl_cert.c; sourceTree = "<group>"; };
+		OBJ_594 /* ssl_ciph.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ssl_ciph.c; sourceTree = "<group>"; };
+		OBJ_595 /* ssl_conf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ssl_conf.c; sourceTree = "<group>"; };
+		OBJ_596 /* ssl_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ssl_err.c; sourceTree = "<group>"; };
+		OBJ_597 /* ssl_err2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ssl_err2.c; sourceTree = "<group>"; };
+		OBJ_598 /* ssl_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ssl_lib.c; sourceTree = "<group>"; };
+		OBJ_599 /* ssl_rsa.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ssl_rsa.c; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_60 /* a_gentm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_gentm.c; sourceTree = "<group>"; };
+		OBJ_600 /* ssl_sess.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ssl_sess.c; sourceTree = "<group>"; };
+		OBJ_601 /* ssl_stat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ssl_stat.c; sourceTree = "<group>"; };
+		OBJ_602 /* ssl_txt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ssl_txt.c; sourceTree = "<group>"; };
+		OBJ_603 /* ssl_utst.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ssl_utst.c; sourceTree = "<group>"; };
+		OBJ_604 /* stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
+		OBJ_605 /* str2key.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = str2key.c; sourceTree = "<group>"; };
+		OBJ_606 /* t1_clnt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = t1_clnt.c; sourceTree = "<group>"; };
+		OBJ_607 /* t1_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = t1_enc.c; sourceTree = "<group>"; };
+		OBJ_608 /* t1_ext.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = t1_ext.c; sourceTree = "<group>"; };
+		OBJ_609 /* t1_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = t1_lib.c; sourceTree = "<group>"; };
+		OBJ_61 /* a_i2d_fp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_i2d_fp.c; sourceTree = "<group>"; };
+		OBJ_610 /* t1_meth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = t1_meth.c; sourceTree = "<group>"; };
+		OBJ_611 /* t1_reneg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = t1_reneg.c; sourceTree = "<group>"; };
+		OBJ_612 /* t1_srvr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = t1_srvr.c; sourceTree = "<group>"; };
+		OBJ_613 /* t1_trce.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = t1_trce.c; sourceTree = "<group>"; };
+		OBJ_614 /* t_bitst.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = t_bitst.c; sourceTree = "<group>"; };
+		OBJ_615 /* t_crl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = t_crl.c; sourceTree = "<group>"; };
+		OBJ_616 /* t_pkey.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = t_pkey.c; sourceTree = "<group>"; };
+		OBJ_617 /* t_req.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = t_req.c; sourceTree = "<group>"; };
+		OBJ_618 /* t_spki.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = t_spki.c; sourceTree = "<group>"; };
+		OBJ_619 /* t_x509.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = t_x509.c; sourceTree = "<group>"; };
+		OBJ_62 /* a_int.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_int.c; sourceTree = "<group>"; };
+		OBJ_620 /* t_x509a.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = t_x509a.c; sourceTree = "<group>"; };
+		OBJ_621 /* tasn_dec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tasn_dec.c; sourceTree = "<group>"; };
+		OBJ_622 /* tasn_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tasn_enc.c; sourceTree = "<group>"; };
+		OBJ_623 /* tasn_fre.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tasn_fre.c; sourceTree = "<group>"; };
+		OBJ_624 /* tasn_new.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tasn_new.c; sourceTree = "<group>"; };
+		OBJ_625 /* tasn_prn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tasn_prn.c; sourceTree = "<group>"; };
+		OBJ_626 /* tasn_typ.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tasn_typ.c; sourceTree = "<group>"; };
+		OBJ_627 /* tasn_utl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tasn_utl.c; sourceTree = "<group>"; };
+		OBJ_628 /* tb_asnmth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tb_asnmth.c; sourceTree = "<group>"; };
+		OBJ_629 /* tb_cipher.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tb_cipher.c; sourceTree = "<group>"; };
+		OBJ_63 /* a_mbstr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_mbstr.c; sourceTree = "<group>"; };
+		OBJ_630 /* tb_dh.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tb_dh.c; sourceTree = "<group>"; };
+		OBJ_631 /* tb_digest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tb_digest.c; sourceTree = "<group>"; };
+		OBJ_632 /* tb_dsa.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tb_dsa.c; sourceTree = "<group>"; };
+		OBJ_633 /* tb_ecdh.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tb_ecdh.c; sourceTree = "<group>"; };
+		OBJ_634 /* tb_ecdsa.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tb_ecdsa.c; sourceTree = "<group>"; };
+		OBJ_635 /* tb_pkmeth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tb_pkmeth.c; sourceTree = "<group>"; };
+		OBJ_636 /* tb_rand.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tb_rand.c; sourceTree = "<group>"; };
+		OBJ_637 /* tb_rsa.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tb_rsa.c; sourceTree = "<group>"; };
+		OBJ_638 /* tb_store.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tb_store.c; sourceTree = "<group>"; };
+		OBJ_639 /* th-lock.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "th-lock.c"; sourceTree = "<group>"; };
+		OBJ_64 /* a_object.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_object.c; sourceTree = "<group>"; };
+		OBJ_640 /* tls_srp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tls_srp.c; sourceTree = "<group>"; };
+		OBJ_641 /* ts_asn1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ts_asn1.c; sourceTree = "<group>"; };
+		OBJ_642 /* ts_conf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ts_conf.c; sourceTree = "<group>"; };
+		OBJ_643 /* ts_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ts_err.c; sourceTree = "<group>"; };
+		OBJ_644 /* ts_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ts_lib.c; sourceTree = "<group>"; };
+		OBJ_645 /* ts_req_print.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ts_req_print.c; sourceTree = "<group>"; };
+		OBJ_646 /* ts_req_utils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ts_req_utils.c; sourceTree = "<group>"; };
+		OBJ_647 /* ts_rsp_print.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ts_rsp_print.c; sourceTree = "<group>"; };
+		OBJ_648 /* ts_rsp_sign.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ts_rsp_sign.c; sourceTree = "<group>"; };
+		OBJ_649 /* ts_rsp_utils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ts_rsp_utils.c; sourceTree = "<group>"; };
+		OBJ_65 /* a_octet.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_octet.c; sourceTree = "<group>"; };
+		OBJ_650 /* ts_rsp_verify.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ts_rsp_verify.c; sourceTree = "<group>"; };
+		OBJ_651 /* ts_verify_ctx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ts_verify_ctx.c; sourceTree = "<group>"; };
+		OBJ_652 /* txt_db.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = txt_db.c; sourceTree = "<group>"; };
+		OBJ_653 /* ui_compat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ui_compat.c; sourceTree = "<group>"; };
+		OBJ_654 /* ui_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ui_err.c; sourceTree = "<group>"; };
+		OBJ_655 /* ui_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ui_lib.c; sourceTree = "<group>"; };
+		OBJ_656 /* ui_openssl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ui_openssl.c; sourceTree = "<group>"; };
+		OBJ_657 /* ui_util.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ui_util.c; sourceTree = "<group>"; };
+		OBJ_658 /* uid.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = uid.c; sourceTree = "<group>"; };
+		OBJ_659 /* v3_addr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_addr.c; sourceTree = "<group>"; };
+		OBJ_66 /* a_print.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_print.c; sourceTree = "<group>"; };
+		OBJ_660 /* v3_akey.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_akey.c; sourceTree = "<group>"; };
+		OBJ_661 /* v3_akeya.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_akeya.c; sourceTree = "<group>"; };
+		OBJ_662 /* v3_alt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_alt.c; sourceTree = "<group>"; };
+		OBJ_663 /* v3_asid.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_asid.c; sourceTree = "<group>"; };
+		OBJ_664 /* v3_bcons.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_bcons.c; sourceTree = "<group>"; };
+		OBJ_665 /* v3_bitst.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_bitst.c; sourceTree = "<group>"; };
+		OBJ_666 /* v3_conf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_conf.c; sourceTree = "<group>"; };
+		OBJ_667 /* v3_cpols.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_cpols.c; sourceTree = "<group>"; };
+		OBJ_668 /* v3_crld.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_crld.c; sourceTree = "<group>"; };
+		OBJ_669 /* v3_enum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_enum.c; sourceTree = "<group>"; };
+		OBJ_67 /* a_set.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_set.c; sourceTree = "<group>"; };
+		OBJ_670 /* v3_extku.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_extku.c; sourceTree = "<group>"; };
+		OBJ_671 /* v3_genn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_genn.c; sourceTree = "<group>"; };
+		OBJ_672 /* v3_ia5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_ia5.c; sourceTree = "<group>"; };
+		OBJ_673 /* v3_info.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_info.c; sourceTree = "<group>"; };
+		OBJ_674 /* v3_int.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_int.c; sourceTree = "<group>"; };
+		OBJ_675 /* v3_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_lib.c; sourceTree = "<group>"; };
+		OBJ_676 /* v3_ncons.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_ncons.c; sourceTree = "<group>"; };
+		OBJ_677 /* v3_ocsp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_ocsp.c; sourceTree = "<group>"; };
+		OBJ_678 /* v3_pci.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_pci.c; sourceTree = "<group>"; };
+		OBJ_679 /* v3_pcia.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_pcia.c; sourceTree = "<group>"; };
+		OBJ_68 /* a_sign.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_sign.c; sourceTree = "<group>"; };
+		OBJ_680 /* v3_pcons.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_pcons.c; sourceTree = "<group>"; };
+		OBJ_681 /* v3_pku.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_pku.c; sourceTree = "<group>"; };
+		OBJ_682 /* v3_pmaps.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_pmaps.c; sourceTree = "<group>"; };
+		OBJ_683 /* v3_prn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_prn.c; sourceTree = "<group>"; };
+		OBJ_684 /* v3_purp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_purp.c; sourceTree = "<group>"; };
+		OBJ_685 /* v3_scts.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_scts.c; sourceTree = "<group>"; };
+		OBJ_686 /* v3_skey.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_skey.c; sourceTree = "<group>"; };
+		OBJ_687 /* v3_sxnet.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_sxnet.c; sourceTree = "<group>"; };
+		OBJ_688 /* v3_utl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_utl.c; sourceTree = "<group>"; };
+		OBJ_689 /* v3err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3err.c; sourceTree = "<group>"; };
+		OBJ_69 /* a_strex.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_strex.c; sourceTree = "<group>"; };
+		OBJ_690 /* wp_block.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wp_block.c; sourceTree = "<group>"; };
+		OBJ_691 /* wp_dgst.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wp_dgst.c; sourceTree = "<group>"; };
+		OBJ_692 /* wrap128.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wrap128.c; sourceTree = "<group>"; };
+		OBJ_693 /* x509_att.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509_att.c; sourceTree = "<group>"; };
+		OBJ_694 /* x509_cmp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509_cmp.c; sourceTree = "<group>"; };
+		OBJ_695 /* x509_d2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509_d2.c; sourceTree = "<group>"; };
+		OBJ_696 /* x509_def.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509_def.c; sourceTree = "<group>"; };
+		OBJ_697 /* x509_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509_err.c; sourceTree = "<group>"; };
+		OBJ_698 /* x509_ext.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509_ext.c; sourceTree = "<group>"; };
+		OBJ_699 /* x509_lu.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509_lu.c; sourceTree = "<group>"; };
+		OBJ_70 /* a_strnid.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_strnid.c; sourceTree = "<group>"; };
+		OBJ_700 /* x509_obj.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509_obj.c; sourceTree = "<group>"; };
+		OBJ_701 /* x509_r2x.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509_r2x.c; sourceTree = "<group>"; };
+		OBJ_702 /* x509_req.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509_req.c; sourceTree = "<group>"; };
+		OBJ_703 /* x509_set.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509_set.c; sourceTree = "<group>"; };
+		OBJ_704 /* x509_trs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509_trs.c; sourceTree = "<group>"; };
+		OBJ_705 /* x509_txt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509_txt.c; sourceTree = "<group>"; };
+		OBJ_706 /* x509_v3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509_v3.c; sourceTree = "<group>"; };
+		OBJ_707 /* x509_vfy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509_vfy.c; sourceTree = "<group>"; };
+		OBJ_708 /* x509_vpm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509_vpm.c; sourceTree = "<group>"; };
+		OBJ_709 /* x509cset.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509cset.c; sourceTree = "<group>"; };
+		OBJ_71 /* a_time.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_time.c; sourceTree = "<group>"; };
+		OBJ_710 /* x509name.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509name.c; sourceTree = "<group>"; };
+		OBJ_711 /* x509rset.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509rset.c; sourceTree = "<group>"; };
+		OBJ_712 /* x509spki.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509spki.c; sourceTree = "<group>"; };
+		OBJ_713 /* x509type.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509type.c; sourceTree = "<group>"; };
+		OBJ_714 /* x_algor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x_algor.c; sourceTree = "<group>"; };
+		OBJ_715 /* x_all.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x_all.c; sourceTree = "<group>"; };
+		OBJ_716 /* x_attrib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x_attrib.c; sourceTree = "<group>"; };
+		OBJ_717 /* x_bignum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x_bignum.c; sourceTree = "<group>"; };
+		OBJ_718 /* x_crl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x_crl.c; sourceTree = "<group>"; };
+		OBJ_719 /* x_exten.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x_exten.c; sourceTree = "<group>"; };
+		OBJ_72 /* a_type.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_type.c; sourceTree = "<group>"; };
+		OBJ_720 /* x_info.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x_info.c; sourceTree = "<group>"; };
+		OBJ_721 /* x_long.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x_long.c; sourceTree = "<group>"; };
+		OBJ_722 /* x_name.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x_name.c; sourceTree = "<group>"; };
+		OBJ_723 /* x_nx509.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x_nx509.c; sourceTree = "<group>"; };
+		OBJ_724 /* x_pkey.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x_pkey.c; sourceTree = "<group>"; };
+		OBJ_725 /* x_pubkey.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x_pubkey.c; sourceTree = "<group>"; };
+		OBJ_726 /* x_req.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x_req.c; sourceTree = "<group>"; };
+		OBJ_727 /* x_sig.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x_sig.c; sourceTree = "<group>"; };
+		OBJ_728 /* x_spki.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x_spki.c; sourceTree = "<group>"; };
+		OBJ_729 /* x_val.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x_val.c; sourceTree = "<group>"; };
+		OBJ_73 /* a_utctm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_utctm.c; sourceTree = "<group>"; };
+		OBJ_730 /* x_x509.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x_x509.c; sourceTree = "<group>"; };
+		OBJ_731 /* x_x509a.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x_x509a.c; sourceTree = "<group>"; };
+		OBJ_732 /* xcbc_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = xcbc_enc.c; sourceTree = "<group>"; };
+		OBJ_733 /* xts128.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = xts128.c; sourceTree = "<group>"; };
+		OBJ_735 /* openssl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = openssl.h; sourceTree = "<group>"; };
+		OBJ_736 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap"; sourceTree = "<group>"; };
+		OBJ_737 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/Package.swift"; sourceTree = "<group>"; };
+		OBJ_74 /* a_utf8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_utf8.c; sourceTree = "<group>"; };
+		OBJ_740 /* Bytes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bytes.swift; sourceTree = "<group>"; };
+		OBJ_741 /* Dir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dir.swift; sourceTree = "<group>"; };
+		OBJ_742 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		OBJ_743 /* JSONConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONConvertible.swift; sourceTree = "<group>"; };
+		OBJ_744 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		OBJ_745 /* PerfectError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectError.swift; sourceTree = "<group>"; };
+		OBJ_746 /* PerfectServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectServer.swift; sourceTree = "<group>"; };
+		OBJ_747 /* SwiftCompatibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCompatibility.swift; sourceTree = "<group>"; };
+		OBJ_748 /* SysProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SysProcess.swift; sourceTree = "<group>"; };
+		OBJ_749 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		OBJ_75 /* a_verify.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_verify.c; sourceTree = "<group>"; };
+		OBJ_750 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/.build/checkouts/PerfectLib.git-3712999737848873669/Package.swift"; sourceTree = "<group>"; };
+		OBJ_76 /* aes_cbc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aes_cbc.c; sourceTree = "<group>"; };
+		OBJ_77 /* aes_cfb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aes_cfb.c; sourceTree = "<group>"; };
+		OBJ_78 /* aes_core.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aes_core.c; sourceTree = "<group>"; };
+		OBJ_79 /* aes_ctr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aes_ctr.c; sourceTree = "<group>"; };
+		OBJ_8 /* PerfectRequestLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectRequestLogger.swift; sourceTree = "<group>"; };
+		OBJ_80 /* aes_ecb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aes_ecb.c; sourceTree = "<group>"; };
+		OBJ_81 /* aes_ige.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aes_ige.c; sourceTree = "<group>"; };
+		OBJ_82 /* aes_misc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aes_misc.c; sourceTree = "<group>"; };
+		OBJ_83 /* aes_ofb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aes_ofb.c; sourceTree = "<group>"; };
+		OBJ_84 /* aes_wrap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aes_wrap.c; sourceTree = "<group>"; };
+		OBJ_85 /* ameth_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ameth_lib.c; sourceTree = "<group>"; };
+		OBJ_86 /* asn1_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = asn1_err.c; sourceTree = "<group>"; };
+		OBJ_87 /* asn1_gen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = asn1_gen.c; sourceTree = "<group>"; };
+		OBJ_88 /* asn1_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = asn1_lib.c; sourceTree = "<group>"; };
+		OBJ_89 /* asn1_par.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = asn1_par.c; sourceTree = "<group>"; };
+		OBJ_90 /* asn_mime.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = asn_mime.c; sourceTree = "<group>"; };
+		OBJ_91 /* asn_moid.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = asn_moid.c; sourceTree = "<group>"; };
+		OBJ_92 /* asn_pack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = asn_pack.c; sourceTree = "<group>"; };
+		OBJ_93 /* b_dump.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = b_dump.c; sourceTree = "<group>"; };
+		OBJ_94 /* b_print.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = b_print.c; sourceTree = "<group>"; };
+		OBJ_95 /* b_sock.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = b_sock.c; sourceTree = "<group>"; };
+		OBJ_96 /* bf_buff.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bf_buff.c; sourceTree = "<group>"; };
+		OBJ_97 /* bf_cfb64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bf_cfb64.c; sourceTree = "<group>"; };
+		OBJ_98 /* bf_ecb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bf_ecb.c; sourceTree = "<group>"; };
+		OBJ_99 /* bf_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bf_enc.c; sourceTree = "<group>"; };
+		"PerfectRequestLogger::PerfectRequestLogger::Product" /* PerfectRequestLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectRequestLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"PerfectRequestLogger::PerfectRequestLoggerTests::Product" /* PerfectRequestLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = PerfectRequestLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_810 /* PerfectRequestLogger.framework in Frameworks */,
+				7A9E3AAD1FF38D21003040A4 /* PerfectHTTPServer.framework in Frameworks */,
+				7A9E3AAB1FF38D21003040A4 /* PerfectCHTTPParser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				7AB8528B1FF4EBD300D9BE36 /* COpenSSL.framework in Frameworks */,
+				7AB8528C1FF4EBD300D9BE36 /* PerfectCHTTPParser.framework in Frameworks */,
+				7AB8528D1FF4EBD300D9BE36 /* PerfectHTTP.framework in Frameworks */,
+				7AB8528E1FF4EBD300D9BE36 /* PerfectLib.framework in Frameworks */,
+				7AB8528F1FF4EBD300D9BE36 /* PerfectNet.framework in Frameworks */,
+				7AB852901FF4EBD300D9BE36 /* PerfectThread.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A9E3A6F1FF37DBD003040A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AB852911FF4EBD300D9BE36 /* COpenSSL.framework */,
+				7AB852921FF4EBD300D9BE36 /* PerfectCHTTPParser.framework */,
+				7AB852931FF4EBD300D9BE36 /* PerfectHTTP.framework */,
+				7AB852941FF4EBD300D9BE36 /* PerfectLib.framework */,
+				7AB852951FF4EBD300D9BE36 /* PerfectNet.framework */,
+				7AB852961FF4EBD300D9BE36 /* PerfectThread.framework */,
+				7A9E3AA91FF38D20003040A4 /* PerfectCHTTPParser.framework */,
+				7A9E3AAA1FF38D21003040A4 /* PerfectHTTPServer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		OBJ_10 /* PerfectRequestLoggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* PerfectRequestLoggerTests.swift */,
+			);
+			name = PerfectRequestLoggerTests;
+			path = Tests/PerfectRequestLoggerTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_12 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_28 /* PerfectHTTP 2.0.7 */,
+				OBJ_39 /* PerfectNet 2.0.5 */,
+				OBJ_46 /* PerfectThread 2.0.12 */,
+				OBJ_51 /* COpenSSL 2.0.6 */,
+				OBJ_738 /* PerfectLib 2.0.11 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_28 /* PerfectHTTP 2.0.7 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_29 /* Package.swift */,
+				OBJ_30 /* HTTPFilter.swift */,
+				OBJ_31 /* HTTPHeaders.swift */,
+				OBJ_32 /* HTTPMethod.swift */,
+				OBJ_33 /* HTTPRequest.swift */,
+				OBJ_34 /* HTTPResponse.swift */,
+				OBJ_35 /* MimeReader.swift */,
+				OBJ_36 /* MimeType.swift */,
+				OBJ_37 /* Routing.swift */,
+				OBJ_38 /* StaticFileHandler.swift */,
+			);
+			name = "PerfectHTTP 2.0.7";
+			path = ".build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_39 /* PerfectNet 2.0.5 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_40 /* Package.swift */,
+				OBJ_41 /* Net.swift */,
+				OBJ_42 /* NetEvent.swift */,
+				OBJ_43 /* NetNamedPipe.swift */,
+				OBJ_44 /* NetTCP.swift */,
+				OBJ_45 /* NetTCPSSL.swift */,
+			);
+			name = "PerfectNet 2.0.5";
+			path = ".build/checkouts/Perfect-Net.git-3268755499654502659/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_46 /* PerfectThread 2.0.12 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_47 /* Package.swift */,
+				OBJ_48 /* Promise.swift */,
+				OBJ_49 /* ThreadQueue.swift */,
+				OBJ_50 /* Threading.swift */,
+			);
+			name = "PerfectThread 2.0.12";
+			path = ".build/checkouts/Perfect-Thread.git-6541237758607105655/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_9 /* Tests */,
+				OBJ_12 /* Dependencies */,
+				OBJ_751 /* Products */,
+				7A9E3A6F1FF37DBD003040A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_51 /* COpenSSL 2.0.6 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_52 /* COpenSSL */,
+				OBJ_737 /* Package.swift */,
+			);
+			name = "COpenSSL 2.0.6";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_52 /* COpenSSL */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_53 /* a_bitstr.c */,
+				OBJ_54 /* a_bool.c */,
+				OBJ_55 /* a_bytes.c */,
+				OBJ_56 /* a_d2i_fp.c */,
+				OBJ_57 /* a_digest.c */,
+				OBJ_58 /* a_dup.c */,
+				OBJ_59 /* a_enum.c */,
+				OBJ_60 /* a_gentm.c */,
+				OBJ_61 /* a_i2d_fp.c */,
+				OBJ_62 /* a_int.c */,
+				OBJ_63 /* a_mbstr.c */,
+				OBJ_64 /* a_object.c */,
+				OBJ_65 /* a_octet.c */,
+				OBJ_66 /* a_print.c */,
+				OBJ_67 /* a_set.c */,
+				OBJ_68 /* a_sign.c */,
+				OBJ_69 /* a_strex.c */,
+				OBJ_70 /* a_strnid.c */,
+				OBJ_71 /* a_time.c */,
+				OBJ_72 /* a_type.c */,
+				OBJ_73 /* a_utctm.c */,
+				OBJ_74 /* a_utf8.c */,
+				OBJ_75 /* a_verify.c */,
+				OBJ_76 /* aes_cbc.c */,
+				OBJ_77 /* aes_cfb.c */,
+				OBJ_78 /* aes_core.c */,
+				OBJ_79 /* aes_ctr.c */,
+				OBJ_80 /* aes_ecb.c */,
+				OBJ_81 /* aes_ige.c */,
+				OBJ_82 /* aes_misc.c */,
+				OBJ_83 /* aes_ofb.c */,
+				OBJ_84 /* aes_wrap.c */,
+				OBJ_85 /* ameth_lib.c */,
+				OBJ_86 /* asn1_err.c */,
+				OBJ_87 /* asn1_gen.c */,
+				OBJ_88 /* asn1_lib.c */,
+				OBJ_89 /* asn1_par.c */,
+				OBJ_90 /* asn_mime.c */,
+				OBJ_91 /* asn_moid.c */,
+				OBJ_92 /* asn_pack.c */,
+				OBJ_93 /* b_dump.c */,
+				OBJ_94 /* b_print.c */,
+				OBJ_95 /* b_sock.c */,
+				OBJ_96 /* bf_buff.c */,
+				OBJ_97 /* bf_cfb64.c */,
+				OBJ_98 /* bf_ecb.c */,
+				OBJ_99 /* bf_enc.c */,
+				OBJ_100 /* bf_lbuf.c */,
+				OBJ_101 /* bf_nbio.c */,
+				OBJ_102 /* bf_null.c */,
+				OBJ_103 /* bf_ofb64.c */,
+				OBJ_104 /* bf_skey.c */,
+				OBJ_105 /* bio_asn1.c */,
+				OBJ_106 /* bio_b64.c */,
+				OBJ_107 /* bio_cb.c */,
+				OBJ_108 /* bio_enc.c */,
+				OBJ_109 /* bio_err.c */,
+				OBJ_110 /* bio_lib.c */,
+				OBJ_111 /* bio_md.c */,
+				OBJ_112 /* bio_ndef.c */,
+				OBJ_113 /* bio_ok.c */,
+				OBJ_114 /* bio_pk7.c */,
+				OBJ_115 /* bio_ssl.c */,
+				OBJ_116 /* bn_add.c */,
+				OBJ_117 /* bn_asm.c */,
+				OBJ_118 /* bn_blind.c */,
+				OBJ_119 /* bn_const.c */,
+				OBJ_120 /* bn_ctx.c */,
+				OBJ_121 /* bn_depr.c */,
+				OBJ_122 /* bn_div.c */,
+				OBJ_123 /* bn_err.c */,
+				OBJ_124 /* bn_exp.c */,
+				OBJ_125 /* bn_exp2.c */,
+				OBJ_126 /* bn_gcd.c */,
+				OBJ_127 /* bn_gf2m.c */,
+				OBJ_128 /* bn_kron.c */,
+				OBJ_129 /* bn_lib.c */,
+				OBJ_130 /* bn_mod.c */,
+				OBJ_131 /* bn_mont.c */,
+				OBJ_132 /* bn_mpi.c */,
+				OBJ_133 /* bn_mul.c */,
+				OBJ_134 /* bn_nist.c */,
+				OBJ_135 /* bn_prime.c */,
+				OBJ_136 /* bn_print.c */,
+				OBJ_137 /* bn_rand.c */,
+				OBJ_138 /* bn_recp.c */,
+				OBJ_139 /* bn_shift.c */,
+				OBJ_140 /* bn_sqr.c */,
+				OBJ_141 /* bn_sqrt.c */,
+				OBJ_142 /* bn_word.c */,
+				OBJ_143 /* bn_x931p.c */,
+				OBJ_144 /* bss_acpt.c */,
+				OBJ_145 /* bss_bio.c */,
+				OBJ_146 /* bss_conn.c */,
+				OBJ_147 /* bss_dgram.c */,
+				OBJ_148 /* bss_fd.c */,
+				OBJ_149 /* bss_file.c */,
+				OBJ_150 /* bss_log.c */,
+				OBJ_151 /* bss_mem.c */,
+				OBJ_152 /* bss_null.c */,
+				OBJ_153 /* bss_sock.c */,
+				OBJ_154 /* buf_err.c */,
+				OBJ_155 /* buf_str.c */,
+				OBJ_156 /* buffer.c */,
+				OBJ_157 /* by_dir.c */,
+				OBJ_158 /* by_file.c */,
+				OBJ_159 /* c_all.c */,
+				OBJ_160 /* c_allc.c */,
+				OBJ_161 /* c_alld.c */,
+				OBJ_162 /* c_cfb64.c */,
+				OBJ_163 /* c_ecb.c */,
+				OBJ_164 /* c_enc.c */,
+				OBJ_165 /* c_ofb64.c */,
+				OBJ_166 /* c_rle.c */,
+				OBJ_167 /* c_skey.c */,
+				OBJ_168 /* c_zlib.c */,
+				OBJ_169 /* camellia.c */,
+				OBJ_170 /* cbc128.c */,
+				OBJ_171 /* cbc3_enc.c */,
+				OBJ_172 /* cbc_cksm.c */,
+				OBJ_173 /* cbc_enc.c */,
+				OBJ_174 /* ccm128.c */,
+				OBJ_175 /* cfb128.c */,
+				OBJ_176 /* cfb64ede.c */,
+				OBJ_177 /* cfb64enc.c */,
+				OBJ_178 /* cfb_enc.c */,
+				OBJ_179 /* cm_ameth.c */,
+				OBJ_180 /* cm_pmeth.c */,
+				OBJ_181 /* cmac.c */,
+				OBJ_182 /* cmll_cbc.c */,
+				OBJ_183 /* cmll_cfb.c */,
+				OBJ_184 /* cmll_ctr.c */,
+				OBJ_185 /* cmll_ecb.c */,
+				OBJ_186 /* cmll_misc.c */,
+				OBJ_187 /* cmll_ofb.c */,
+				OBJ_188 /* cmll_utl.c */,
+				OBJ_189 /* cms_asn1.c */,
+				OBJ_190 /* cms_att.c */,
+				OBJ_191 /* cms_cd.c */,
+				OBJ_192 /* cms_dd.c */,
+				OBJ_193 /* cms_enc.c */,
+				OBJ_194 /* cms_env.c */,
+				OBJ_195 /* cms_err.c */,
+				OBJ_196 /* cms_ess.c */,
+				OBJ_197 /* cms_io.c */,
+				OBJ_198 /* cms_kari.c */,
+				OBJ_199 /* cms_lib.c */,
+				OBJ_200 /* cms_pwri.c */,
+				OBJ_201 /* cms_sd.c */,
+				OBJ_202 /* cms_smime.c */,
+				OBJ_203 /* comp_err.c */,
+				OBJ_204 /* comp_lib.c */,
+				OBJ_205 /* conf_api.c */,
+				OBJ_206 /* conf_def.c */,
+				OBJ_207 /* conf_err.c */,
+				OBJ_208 /* conf_lib.c */,
+				OBJ_209 /* conf_mall.c */,
+				OBJ_210 /* conf_mod.c */,
+				OBJ_211 /* conf_sap.c */,
+				OBJ_212 /* cpt_err.c */,
+				OBJ_213 /* cryptlib.c */,
+				OBJ_214 /* ctr128.c */,
+				OBJ_215 /* cversion.c */,
+				OBJ_216 /* d1_both.c */,
+				OBJ_217 /* d1_clnt.c */,
+				OBJ_218 /* d1_lib.c */,
+				OBJ_219 /* d1_meth.c */,
+				OBJ_220 /* d1_pkt.c */,
+				OBJ_221 /* d1_srtp.c */,
+				OBJ_222 /* d1_srvr.c */,
+				OBJ_223 /* d2i_pr.c */,
+				OBJ_224 /* d2i_pu.c */,
+				OBJ_225 /* des_enc.c */,
+				OBJ_226 /* des_old.c */,
+				OBJ_227 /* des_old2.c */,
+				OBJ_228 /* dh_ameth.c */,
+				OBJ_229 /* dh_asn1.c */,
+				OBJ_230 /* dh_check.c */,
+				OBJ_231 /* dh_depr.c */,
+				OBJ_232 /* dh_err.c */,
+				OBJ_233 /* dh_gen.c */,
+				OBJ_234 /* dh_kdf.c */,
+				OBJ_235 /* dh_key.c */,
+				OBJ_236 /* dh_lib.c */,
+				OBJ_237 /* dh_pmeth.c */,
+				OBJ_238 /* dh_prn.c */,
+				OBJ_239 /* dh_rfc5114.c */,
+				OBJ_240 /* digest.c */,
+				OBJ_241 /* dsa_ameth.c */,
+				OBJ_242 /* dsa_asn1.c */,
+				OBJ_243 /* dsa_depr.c */,
+				OBJ_244 /* dsa_err.c */,
+				OBJ_245 /* dsa_gen.c */,
+				OBJ_246 /* dsa_key.c */,
+				OBJ_247 /* dsa_lib.c */,
+				OBJ_248 /* dsa_ossl.c */,
+				OBJ_249 /* dsa_pmeth.c */,
+				OBJ_250 /* dsa_prn.c */,
+				OBJ_251 /* dsa_sign.c */,
+				OBJ_252 /* dsa_vrf.c */,
+				OBJ_253 /* dso_beos.c */,
+				OBJ_254 /* dso_dl.c */,
+				OBJ_255 /* dso_dlfcn.c */,
+				OBJ_256 /* dso_err.c */,
+				OBJ_257 /* dso_lib.c */,
+				OBJ_258 /* dso_null.c */,
+				OBJ_259 /* dso_openssl.c */,
+				OBJ_260 /* dso_vms.c */,
+				OBJ_261 /* dso_win32.c */,
+				OBJ_262 /* e_4758cca.c */,
+				OBJ_263 /* e_4758cca_err.c */,
+				OBJ_264 /* e_aep.c */,
+				OBJ_265 /* e_aep_err.c */,
+				OBJ_266 /* e_aes.c */,
+				OBJ_267 /* e_aes_cbc_hmac_sha1.c */,
+				OBJ_268 /* e_aes_cbc_hmac_sha256.c */,
+				OBJ_269 /* e_atalla.c */,
+				OBJ_270 /* e_atalla_err.c */,
+				OBJ_271 /* e_bf.c */,
+				OBJ_272 /* e_camellia.c */,
+				OBJ_273 /* e_capi.c */,
+				OBJ_274 /* e_capi_err.c */,
+				OBJ_275 /* e_cast.c */,
+				OBJ_276 /* e_chil.c */,
+				OBJ_277 /* e_chil_err.c */,
+				OBJ_278 /* e_cswift.c */,
+				OBJ_279 /* e_cswift_err.c */,
+				OBJ_280 /* e_des.c */,
+				OBJ_281 /* e_des3.c */,
+				OBJ_282 /* e_gmp.c */,
+				OBJ_283 /* e_gmp_err.c */,
+				OBJ_284 /* e_gost_err.c */,
+				OBJ_285 /* e_idea.c */,
+				OBJ_286 /* e_null.c */,
+				OBJ_287 /* e_nuron.c */,
+				OBJ_288 /* e_nuron_err.c */,
+				OBJ_289 /* e_old.c */,
+				OBJ_290 /* e_padlock.c */,
+				OBJ_291 /* e_rc2.c */,
+				OBJ_292 /* e_rc4.c */,
+				OBJ_293 /* e_rc4_hmac_md5.c */,
+				OBJ_294 /* e_rc5.c */,
+				OBJ_295 /* e_seed.c */,
+				OBJ_296 /* e_sureware.c */,
+				OBJ_297 /* e_sureware_err.c */,
+				OBJ_298 /* e_ubsec.c */,
+				OBJ_299 /* e_ubsec_err.c */,
+				OBJ_300 /* e_xcbc_d.c */,
+				OBJ_301 /* ebcdic.c */,
+				OBJ_302 /* ec2_mult.c */,
+				OBJ_303 /* ec2_oct.c */,
+				OBJ_304 /* ec2_smpl.c */,
+				OBJ_305 /* ec_ameth.c */,
+				OBJ_306 /* ec_asn1.c */,
+				OBJ_307 /* ec_check.c */,
+				OBJ_308 /* ec_curve.c */,
+				OBJ_309 /* ec_cvt.c */,
+				OBJ_310 /* ec_err.c */,
+				OBJ_311 /* ec_key.c */,
+				OBJ_312 /* ec_lib.c */,
+				OBJ_313 /* ec_mult.c */,
+				OBJ_314 /* ec_oct.c */,
+				OBJ_315 /* ec_pmeth.c */,
+				OBJ_316 /* ec_print.c */,
+				OBJ_317 /* ecb3_enc.c */,
+				OBJ_318 /* ecb_enc.c */,
+				OBJ_319 /* ech_err.c */,
+				OBJ_320 /* ech_kdf.c */,
+				OBJ_321 /* ech_key.c */,
+				OBJ_322 /* ech_lib.c */,
+				OBJ_323 /* ech_ossl.c */,
+				OBJ_324 /* eck_prn.c */,
+				OBJ_325 /* ecp_mont.c */,
+				OBJ_326 /* ecp_nist.c */,
+				OBJ_327 /* ecp_nistp224.c */,
+				OBJ_328 /* ecp_nistp256.c */,
+				OBJ_329 /* ecp_nistp521.c */,
+				OBJ_330 /* ecp_nistputil.c */,
+				OBJ_331 /* ecp_oct.c */,
+				OBJ_332 /* ecp_smpl.c */,
+				OBJ_333 /* ecs_asn1.c */,
+				OBJ_334 /* ecs_err.c */,
+				OBJ_335 /* ecs_lib.c */,
+				OBJ_336 /* ecs_ossl.c */,
+				OBJ_337 /* ecs_sign.c */,
+				OBJ_338 /* ecs_vrf.c */,
+				OBJ_339 /* ede_cbcm_enc.c */,
+				OBJ_340 /* enc_read.c */,
+				OBJ_341 /* enc_writ.c */,
+				OBJ_342 /* encode.c */,
+				OBJ_343 /* eng_all.c */,
+				OBJ_344 /* eng_cnf.c */,
+				OBJ_345 /* eng_cryptodev.c */,
+				OBJ_346 /* eng_ctrl.c */,
+				OBJ_347 /* eng_dyn.c */,
+				OBJ_348 /* eng_err.c */,
+				OBJ_349 /* eng_fat.c */,
+				OBJ_350 /* eng_init.c */,
+				OBJ_351 /* eng_lib.c */,
+				OBJ_352 /* eng_list.c */,
+				OBJ_353 /* eng_openssl.c */,
+				OBJ_354 /* eng_pkey.c */,
+				OBJ_355 /* eng_rdrand.c */,
+				OBJ_356 /* eng_table.c */,
+				OBJ_357 /* err.c */,
+				OBJ_358 /* err_all.c */,
+				OBJ_359 /* err_prn.c */,
+				OBJ_360 /* evp_acnf.c */,
+				OBJ_361 /* evp_asn1.c */,
+				OBJ_362 /* evp_cnf.c */,
+				OBJ_363 /* evp_enc.c */,
+				OBJ_364 /* evp_err.c */,
+				OBJ_365 /* evp_key.c */,
+				OBJ_366 /* evp_lib.c */,
+				OBJ_367 /* evp_pbe.c */,
+				OBJ_368 /* evp_pkey.c */,
+				OBJ_369 /* ex_data.c */,
+				OBJ_370 /* f_enum.c */,
+				OBJ_371 /* f_int.c */,
+				OBJ_372 /* f_string.c */,
+				OBJ_373 /* fcrypt.c */,
+				OBJ_374 /* fcrypt_b.c */,
+				OBJ_375 /* fips_ers.c */,
+				OBJ_376 /* gcm128.c */,
+				OBJ_377 /* gost2001.c */,
+				OBJ_378 /* gost2001_keyx.c */,
+				OBJ_379 /* gost89.c */,
+				OBJ_380 /* gost94_keyx.c */,
+				OBJ_381 /* gost_ameth.c */,
+				OBJ_382 /* gost_asn1.c */,
+				OBJ_383 /* gost_crypt.c */,
+				OBJ_384 /* gost_ctl.c */,
+				OBJ_385 /* gost_eng.c */,
+				OBJ_386 /* gost_keywrap.c */,
+				OBJ_387 /* gost_md.c */,
+				OBJ_388 /* gost_params.c */,
+				OBJ_389 /* gost_pmeth.c */,
+				OBJ_390 /* gost_sign.c */,
+				OBJ_391 /* gosthash.c */,
+				OBJ_392 /* hm_ameth.c */,
+				OBJ_393 /* hm_pmeth.c */,
+				OBJ_394 /* hmac.c */,
+				OBJ_395 /* i2d_pr.c */,
+				OBJ_396 /* i2d_pu.c */,
+				OBJ_397 /* i_cbc.c */,
+				OBJ_398 /* i_cfb64.c */,
+				OBJ_399 /* i_ecb.c */,
+				OBJ_400 /* i_ofb64.c */,
+				OBJ_401 /* i_skey.c */,
+				OBJ_402 /* krb5_asn.c */,
+				OBJ_403 /* kssl.c */,
+				OBJ_404 /* lh_stats.c */,
+				OBJ_405 /* lhash.c */,
+				OBJ_406 /* m_dss.c */,
+				OBJ_407 /* m_dss1.c */,
+				OBJ_408 /* m_ecdsa.c */,
+				OBJ_409 /* m_md2.c */,
+				OBJ_410 /* m_md4.c */,
+				OBJ_411 /* m_md5.c */,
+				OBJ_412 /* m_mdc2.c */,
+				OBJ_413 /* m_null.c */,
+				OBJ_414 /* m_ripemd.c */,
+				OBJ_415 /* m_sha.c */,
+				OBJ_416 /* m_sha1.c */,
+				OBJ_417 /* m_sigver.c */,
+				OBJ_418 /* m_wp.c */,
+				OBJ_419 /* md4_dgst.c */,
+				OBJ_420 /* md4_one.c */,
+				OBJ_421 /* md5_dgst.c */,
+				OBJ_422 /* md5_one.c */,
+				OBJ_423 /* md_rand.c */,
+				OBJ_424 /* mdc2_one.c */,
+				OBJ_425 /* mdc2dgst.c */,
+				OBJ_426 /* mem.c */,
+				OBJ_427 /* mem_clr.c */,
+				OBJ_428 /* mem_dbg.c */,
+				OBJ_429 /* n_pkey.c */,
+				OBJ_430 /* names.c */,
+				OBJ_431 /* nsseq.c */,
+				OBJ_432 /* o_dir.c */,
+				OBJ_433 /* o_fips.c */,
+				OBJ_434 /* o_init.c */,
+				OBJ_435 /* o_names.c */,
+				OBJ_436 /* o_str.c */,
+				OBJ_437 /* o_time.c */,
+				OBJ_438 /* obj_dat.c */,
+				OBJ_439 /* obj_err.c */,
+				OBJ_440 /* obj_lib.c */,
+				OBJ_441 /* obj_xref.c */,
+				OBJ_442 /* ocsp_asn.c */,
+				OBJ_443 /* ocsp_cl.c */,
+				OBJ_444 /* ocsp_err.c */,
+				OBJ_445 /* ocsp_ext.c */,
+				OBJ_446 /* ocsp_ht.c */,
+				OBJ_447 /* ocsp_lib.c */,
+				OBJ_448 /* ocsp_prn.c */,
+				OBJ_449 /* ocsp_srv.c */,
+				OBJ_450 /* ocsp_vfy.c */,
+				OBJ_451 /* ofb128.c */,
+				OBJ_452 /* ofb64ede.c */,
+				OBJ_453 /* ofb64enc.c */,
+				OBJ_454 /* ofb_enc.c */,
+				OBJ_455 /* openbsd_hw.c */,
+				OBJ_456 /* p12_add.c */,
+				OBJ_457 /* p12_asn.c */,
+				OBJ_458 /* p12_attr.c */,
+				OBJ_459 /* p12_crpt.c */,
+				OBJ_460 /* p12_crt.c */,
+				OBJ_461 /* p12_decr.c */,
+				OBJ_462 /* p12_init.c */,
+				OBJ_463 /* p12_key.c */,
+				OBJ_464 /* p12_kiss.c */,
+				OBJ_465 /* p12_mutl.c */,
+				OBJ_466 /* p12_npas.c */,
+				OBJ_467 /* p12_p8d.c */,
+				OBJ_468 /* p12_p8e.c */,
+				OBJ_469 /* p12_utl.c */,
+				OBJ_470 /* p5_crpt.c */,
+				OBJ_471 /* p5_crpt2.c */,
+				OBJ_472 /* p5_pbe.c */,
+				OBJ_473 /* p5_pbev2.c */,
+				OBJ_474 /* p8_pkey.c */,
+				OBJ_475 /* p_dec.c */,
+				OBJ_476 /* p_enc.c */,
+				OBJ_477 /* p_lib.c */,
+				OBJ_478 /* p_open.c */,
+				OBJ_479 /* p_seal.c */,
+				OBJ_480 /* p_sign.c */,
+				OBJ_481 /* p_verify.c */,
+				OBJ_482 /* pcbc_enc.c */,
+				OBJ_483 /* pcy_cache.c */,
+				OBJ_484 /* pcy_data.c */,
+				OBJ_485 /* pcy_lib.c */,
+				OBJ_486 /* pcy_map.c */,
+				OBJ_487 /* pcy_node.c */,
+				OBJ_488 /* pcy_tree.c */,
+				OBJ_489 /* pem_all.c */,
+				OBJ_490 /* pem_err.c */,
+				OBJ_491 /* pem_info.c */,
+				OBJ_492 /* pem_lib.c */,
+				OBJ_493 /* pem_oth.c */,
+				OBJ_494 /* pem_pk8.c */,
+				OBJ_495 /* pem_pkey.c */,
+				OBJ_496 /* pem_seal.c */,
+				OBJ_497 /* pem_sign.c */,
+				OBJ_498 /* pem_x509.c */,
+				OBJ_499 /* pem_xaux.c */,
+				OBJ_500 /* pk12err.c */,
+				OBJ_501 /* pk7_asn1.c */,
+				OBJ_502 /* pk7_attr.c */,
+				OBJ_503 /* pk7_dgst.c */,
+				OBJ_504 /* pk7_doit.c */,
+				OBJ_505 /* pk7_lib.c */,
+				OBJ_506 /* pk7_mime.c */,
+				OBJ_507 /* pk7_smime.c */,
+				OBJ_508 /* pkcs7err.c */,
+				OBJ_509 /* pmeth_fn.c */,
+				OBJ_510 /* pmeth_gn.c */,
+				OBJ_511 /* pmeth_lib.c */,
+				OBJ_512 /* pqueue.c */,
+				OBJ_513 /* pvkfmt.c */,
+				OBJ_514 /* qud_cksm.c */,
+				OBJ_515 /* rand_egd.c */,
+				OBJ_516 /* rand_err.c */,
+				OBJ_517 /* rand_key.c */,
+				OBJ_518 /* rand_lib.c */,
+				OBJ_519 /* rand_nw.c */,
+				OBJ_520 /* rand_os2.c */,
+				OBJ_521 /* rand_unix.c */,
+				OBJ_522 /* rand_vms.c */,
+				OBJ_523 /* rand_win.c */,
+				OBJ_524 /* randfile.c */,
+				OBJ_525 /* rc2_cbc.c */,
+				OBJ_526 /* rc2_ecb.c */,
+				OBJ_527 /* rc2_skey.c */,
+				OBJ_528 /* rc2cfb64.c */,
+				OBJ_529 /* rc2ofb64.c */,
+				OBJ_530 /* rc4_enc.c */,
+				OBJ_531 /* rc4_skey.c */,
+				OBJ_532 /* rc4_utl.c */,
+				OBJ_533 /* read2pwd.c */,
+				OBJ_534 /* rmd_dgst.c */,
+				OBJ_535 /* rmd_one.c */,
+				OBJ_536 /* rpc_enc.c */,
+				OBJ_537 /* rsa_ameth.c */,
+				OBJ_538 /* rsa_asn1.c */,
+				OBJ_539 /* rsa_chk.c */,
+				OBJ_540 /* rsa_crpt.c */,
+				OBJ_541 /* rsa_depr.c */,
+				OBJ_542 /* rsa_eay.c */,
+				OBJ_543 /* rsa_err.c */,
+				OBJ_544 /* rsa_gen.c */,
+				OBJ_545 /* rsa_lib.c */,
+				OBJ_546 /* rsa_none.c */,
+				OBJ_547 /* rsa_null.c */,
+				OBJ_548 /* rsa_oaep.c */,
+				OBJ_549 /* rsa_pk1.c */,
+				OBJ_550 /* rsa_pmeth.c */,
+				OBJ_551 /* rsa_prn.c */,
+				OBJ_552 /* rsa_pss.c */,
+				OBJ_553 /* rsa_saos.c */,
+				OBJ_554 /* rsa_sign.c */,
+				OBJ_555 /* rsa_ssl.c */,
+				OBJ_556 /* rsa_x931.c */,
+				OBJ_557 /* rsaz_exp.c */,
+				OBJ_558 /* s23_clnt.c */,
+				OBJ_559 /* s23_lib.c */,
+				OBJ_560 /* s23_meth.c */,
+				OBJ_561 /* s23_pkt.c */,
+				OBJ_562 /* s23_srvr.c */,
+				OBJ_563 /* s2_clnt.c */,
+				OBJ_564 /* s2_enc.c */,
+				OBJ_565 /* s2_lib.c */,
+				OBJ_566 /* s2_meth.c */,
+				OBJ_567 /* s2_pkt.c */,
+				OBJ_568 /* s2_srvr.c */,
+				OBJ_569 /* s3_both.c */,
+				OBJ_570 /* s3_cbc.c */,
+				OBJ_571 /* s3_clnt.c */,
+				OBJ_572 /* s3_enc.c */,
+				OBJ_573 /* s3_lib.c */,
+				OBJ_574 /* s3_meth.c */,
+				OBJ_575 /* s3_pkt.c */,
+				OBJ_576 /* s3_srvr.c */,
+				OBJ_577 /* seed.c */,
+				OBJ_578 /* seed_cbc.c */,
+				OBJ_579 /* seed_cfb.c */,
+				OBJ_580 /* seed_ecb.c */,
+				OBJ_581 /* seed_ofb.c */,
+				OBJ_582 /* set_key.c */,
+				OBJ_583 /* sha1_one.c */,
+				OBJ_584 /* sha1dgst.c */,
+				OBJ_585 /* sha256.c */,
+				OBJ_586 /* sha512.c */,
+				OBJ_587 /* sha_dgst.c */,
+				OBJ_588 /* sha_one.c */,
+				OBJ_589 /* srp_lib.c */,
+				OBJ_590 /* srp_vfy.c */,
+				OBJ_591 /* ssl_algs.c */,
+				OBJ_592 /* ssl_asn1.c */,
+				OBJ_593 /* ssl_cert.c */,
+				OBJ_594 /* ssl_ciph.c */,
+				OBJ_595 /* ssl_conf.c */,
+				OBJ_596 /* ssl_err.c */,
+				OBJ_597 /* ssl_err2.c */,
+				OBJ_598 /* ssl_lib.c */,
+				OBJ_599 /* ssl_rsa.c */,
+				OBJ_600 /* ssl_sess.c */,
+				OBJ_601 /* ssl_stat.c */,
+				OBJ_602 /* ssl_txt.c */,
+				OBJ_603 /* ssl_utst.c */,
+				OBJ_604 /* stack.c */,
+				OBJ_605 /* str2key.c */,
+				OBJ_606 /* t1_clnt.c */,
+				OBJ_607 /* t1_enc.c */,
+				OBJ_608 /* t1_ext.c */,
+				OBJ_609 /* t1_lib.c */,
+				OBJ_610 /* t1_meth.c */,
+				OBJ_611 /* t1_reneg.c */,
+				OBJ_612 /* t1_srvr.c */,
+				OBJ_613 /* t1_trce.c */,
+				OBJ_614 /* t_bitst.c */,
+				OBJ_615 /* t_crl.c */,
+				OBJ_616 /* t_pkey.c */,
+				OBJ_617 /* t_req.c */,
+				OBJ_618 /* t_spki.c */,
+				OBJ_619 /* t_x509.c */,
+				OBJ_620 /* t_x509a.c */,
+				OBJ_621 /* tasn_dec.c */,
+				OBJ_622 /* tasn_enc.c */,
+				OBJ_623 /* tasn_fre.c */,
+				OBJ_624 /* tasn_new.c */,
+				OBJ_625 /* tasn_prn.c */,
+				OBJ_626 /* tasn_typ.c */,
+				OBJ_627 /* tasn_utl.c */,
+				OBJ_628 /* tb_asnmth.c */,
+				OBJ_629 /* tb_cipher.c */,
+				OBJ_630 /* tb_dh.c */,
+				OBJ_631 /* tb_digest.c */,
+				OBJ_632 /* tb_dsa.c */,
+				OBJ_633 /* tb_ecdh.c */,
+				OBJ_634 /* tb_ecdsa.c */,
+				OBJ_635 /* tb_pkmeth.c */,
+				OBJ_636 /* tb_rand.c */,
+				OBJ_637 /* tb_rsa.c */,
+				OBJ_638 /* tb_store.c */,
+				OBJ_639 /* th-lock.c */,
+				OBJ_640 /* tls_srp.c */,
+				OBJ_641 /* ts_asn1.c */,
+				OBJ_642 /* ts_conf.c */,
+				OBJ_643 /* ts_err.c */,
+				OBJ_644 /* ts_lib.c */,
+				OBJ_645 /* ts_req_print.c */,
+				OBJ_646 /* ts_req_utils.c */,
+				OBJ_647 /* ts_rsp_print.c */,
+				OBJ_648 /* ts_rsp_sign.c */,
+				OBJ_649 /* ts_rsp_utils.c */,
+				OBJ_650 /* ts_rsp_verify.c */,
+				OBJ_651 /* ts_verify_ctx.c */,
+				OBJ_652 /* txt_db.c */,
+				OBJ_653 /* ui_compat.c */,
+				OBJ_654 /* ui_err.c */,
+				OBJ_655 /* ui_lib.c */,
+				OBJ_656 /* ui_openssl.c */,
+				OBJ_657 /* ui_util.c */,
+				OBJ_658 /* uid.c */,
+				OBJ_659 /* v3_addr.c */,
+				OBJ_660 /* v3_akey.c */,
+				OBJ_661 /* v3_akeya.c */,
+				OBJ_662 /* v3_alt.c */,
+				OBJ_663 /* v3_asid.c */,
+				OBJ_664 /* v3_bcons.c */,
+				OBJ_665 /* v3_bitst.c */,
+				OBJ_666 /* v3_conf.c */,
+				OBJ_667 /* v3_cpols.c */,
+				OBJ_668 /* v3_crld.c */,
+				OBJ_669 /* v3_enum.c */,
+				OBJ_670 /* v3_extku.c */,
+				OBJ_671 /* v3_genn.c */,
+				OBJ_672 /* v3_ia5.c */,
+				OBJ_673 /* v3_info.c */,
+				OBJ_674 /* v3_int.c */,
+				OBJ_675 /* v3_lib.c */,
+				OBJ_676 /* v3_ncons.c */,
+				OBJ_677 /* v3_ocsp.c */,
+				OBJ_678 /* v3_pci.c */,
+				OBJ_679 /* v3_pcia.c */,
+				OBJ_680 /* v3_pcons.c */,
+				OBJ_681 /* v3_pku.c */,
+				OBJ_682 /* v3_pmaps.c */,
+				OBJ_683 /* v3_prn.c */,
+				OBJ_684 /* v3_purp.c */,
+				OBJ_685 /* v3_scts.c */,
+				OBJ_686 /* v3_skey.c */,
+				OBJ_687 /* v3_sxnet.c */,
+				OBJ_688 /* v3_utl.c */,
+				OBJ_689 /* v3err.c */,
+				OBJ_690 /* wp_block.c */,
+				OBJ_691 /* wp_dgst.c */,
+				OBJ_692 /* wrap128.c */,
+				OBJ_693 /* x509_att.c */,
+				OBJ_694 /* x509_cmp.c */,
+				OBJ_695 /* x509_d2.c */,
+				OBJ_696 /* x509_def.c */,
+				OBJ_697 /* x509_err.c */,
+				OBJ_698 /* x509_ext.c */,
+				OBJ_699 /* x509_lu.c */,
+				OBJ_700 /* x509_obj.c */,
+				OBJ_701 /* x509_r2x.c */,
+				OBJ_702 /* x509_req.c */,
+				OBJ_703 /* x509_set.c */,
+				OBJ_704 /* x509_trs.c */,
+				OBJ_705 /* x509_txt.c */,
+				OBJ_706 /* x509_v3.c */,
+				OBJ_707 /* x509_vfy.c */,
+				OBJ_708 /* x509_vpm.c */,
+				OBJ_709 /* x509cset.c */,
+				OBJ_710 /* x509name.c */,
+				OBJ_711 /* x509rset.c */,
+				OBJ_712 /* x509spki.c */,
+				OBJ_713 /* x509type.c */,
+				OBJ_714 /* x_algor.c */,
+				OBJ_715 /* x_all.c */,
+				OBJ_716 /* x_attrib.c */,
+				OBJ_717 /* x_bignum.c */,
+				OBJ_718 /* x_crl.c */,
+				OBJ_719 /* x_exten.c */,
+				OBJ_720 /* x_info.c */,
+				OBJ_721 /* x_long.c */,
+				OBJ_722 /* x_name.c */,
+				OBJ_723 /* x_nx509.c */,
+				OBJ_724 /* x_pkey.c */,
+				OBJ_725 /* x_pubkey.c */,
+				OBJ_726 /* x_req.c */,
+				OBJ_727 /* x_sig.c */,
+				OBJ_728 /* x_spki.c */,
+				OBJ_729 /* x_val.c */,
+				OBJ_730 /* x_x509.c */,
+				OBJ_731 /* x_x509a.c */,
+				OBJ_732 /* xcbc_enc.c */,
+				OBJ_733 /* xts128.c */,
+				OBJ_734 /* include */,
+			);
+			name = COpenSSL;
+			path = ".build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* PerfectRequestLogger.swift */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_734 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_735 /* openssl.h */,
+				OBJ_736 /* module.modulemap */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		OBJ_738 /* PerfectLib 2.0.11 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_739 /* PerfectLib */,
+				OBJ_750 /* Package.swift */,
+			);
+			name = "PerfectLib 2.0.11";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_739 /* PerfectLib */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_740 /* Bytes.swift */,
+				OBJ_741 /* Dir.swift */,
+				OBJ_742 /* File.swift */,
+				OBJ_743 /* JSONConvertible.swift */,
+				OBJ_744 /* Log.swift */,
+				OBJ_745 /* PerfectError.swift */,
+				OBJ_746 /* PerfectServer.swift */,
+				OBJ_747 /* SwiftCompatibility.swift */,
+				OBJ_748 /* SysProcess.swift */,
+				OBJ_749 /* Utilities.swift */,
+			);
+			name = PerfectLib;
+			path = ".build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_751 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"PerfectRequestLogger::PerfectRequestLoggerTests::Product" /* PerfectRequestLoggerTests.xctest */,
+				"PerfectRequestLogger::PerfectRequestLogger::Product" /* PerfectRequestLogger.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_9 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* PerfectRequestLoggerTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"PerfectRequestLogger::PerfectRequestLogger" /* PerfectRequestLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_834 /* Build configuration list for PBXNativeTarget "PerfectRequestLogger" */;
+			buildPhases = (
+				OBJ_837 /* Sources */,
+				OBJ_839 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectRequestLogger;
+			productName = PerfectRequestLogger;
+			productReference = "PerfectRequestLogger::PerfectRequestLogger::Product" /* PerfectRequestLogger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"PerfectRequestLogger::PerfectRequestLoggerTests" /* PerfectRequestLoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_804 /* Build configuration list for PBXNativeTarget "PerfectRequestLoggerTests" */;
+			buildPhases = (
+				OBJ_807 /* Sources */,
+				OBJ_809 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_818 /* PBXTargetDependency */,
+			);
+			name = PerfectRequestLoggerTests;
+			productName = PerfectRequestLoggerTests;
+			productReference = "PerfectRequestLogger::PerfectRequestLoggerTests::Product" /* PerfectRequestLoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"PerfectRequestLogger::SwiftPMPackageDescription" /* PerfectRequestLoggerPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_762 /* Build configuration list for PBXNativeTarget "PerfectRequestLoggerPackageDescription" */;
+			buildPhases = (
+				OBJ_765 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectRequestLoggerPackageDescription;
+			productName = PerfectRequestLoggerPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "PerfectRequestLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_751 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"PerfectRequestLogger::SwiftPMPackageDescription" /* PerfectRequestLoggerPackageDescription */,
+				"PerfectRequestLogger::PerfectRequestLoggerTests" /* PerfectRequestLoggerTests */,
+				"PerfectRequestLogger::PerfectRequestLogger" /* PerfectRequestLogger */,
+				"PerfectRequestLogger::PerfectRequestLoggerPackageTests::ProductTarget" /* PerfectRequestLoggerPackageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_766 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_808 /* PerfectRequestLoggerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_838 /* PerfectRequestLogger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_1643 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectRequestLogger::PerfectRequestLoggerTests" /* PerfectRequestLoggerTests */;
+			targetProxy = 7A9E3A6E1FF37B26003040A4 /* PBXContainerItemProxy */;
+		};
+		OBJ_818 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectRequestLogger::PerfectRequestLogger" /* PerfectRequestLogger */;
+			targetProxy = 7A9E3A661FF37B26003040A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_1641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_1642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		OBJ_764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		OBJ_805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CHTTPParser/include",
+					"$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include",
+				);
+				INFOPLIST_FILE = PerfectRequestLogger.xcodeproj/PerfectRequestLoggerTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CHTTPParser/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap";
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = PerfectRequestLoggerTests;
+			};
+			name = Debug;
+		};
+		OBJ_806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CHTTPParser/include",
+					"$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include",
+				);
+				INFOPLIST_FILE = PerfectRequestLogger.xcodeproj/PerfectRequestLoggerTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CHTTPParser/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap";
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = PerfectRequestLoggerTests;
+			};
+			name = Release;
+		};
+		OBJ_835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CHTTPParser/include",
+					"$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include",
+				);
+				INFOPLIST_FILE = PerfectRequestLogger.xcodeproj/PerfectRequestLogger_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CHTTPParser/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectRequestLogger;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = PerfectRequestLogger;
+			};
+			name = Debug;
+		};
+		OBJ_836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CHTTPParser/include",
+					"$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include",
+				);
+				INFOPLIST_FILE = PerfectRequestLogger.xcodeproj/PerfectRequestLogger_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CHTTPParser/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectRequestLogger;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = PerfectRequestLogger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_1640 /* Build configuration list for PBXAggregateTarget "PerfectRequestLoggerPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_1641 /* Debug */,
+				OBJ_1642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "PerfectRequestLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_762 /* Build configuration list for PBXNativeTarget "PerfectRequestLoggerPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_763 /* Debug */,
+				OBJ_764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_804 /* Build configuration list for PBXNativeTarget "PerfectRequestLoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_805 /* Debug */,
+				OBJ_806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_834 /* Build configuration list for PBXNativeTarget "PerfectRequestLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_835 /* Debug */,
+				OBJ_836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}

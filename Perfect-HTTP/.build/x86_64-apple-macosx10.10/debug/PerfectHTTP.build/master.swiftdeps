@@ -1,0 +1,14 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "4fcc85980f7c3b5ef25ba972ebe513c8"
+build_time: [1514449152, 609737000]
+inputs:
+  "/Users/macmini2/Desktop/workSpace/Perfect-HTTP/Sources/HTTPFilter.swift": [1514256900, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-HTTP/Sources/HTTPHeaders.swift": [1514256900, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-HTTP/Sources/HTTPMethod.swift": [1514256900, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-HTTP/Sources/HTTPRequest.swift": [1514256900, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-HTTP/Sources/HTTPResponse.swift": [1514256900, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-HTTP/Sources/MimeReader.swift": [1514256900, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-HTTP/Sources/MimeType.swift": [1514256900, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-HTTP/Sources/Routing.swift": [1514256900, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-HTTP/Sources/StaticFileHandler.swift": [1514256900, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-HTTP/Sources/TypedRoutes.swift": [1514256900, 0]

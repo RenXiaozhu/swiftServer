@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "684c4986bb177cf742299d60459bbc80"
+build_time: [1514449142, 694987000]
+inputs:
+  "/Users/macmini2/Desktop/workSpace/Perfect-Net/Sources/Net.swift": [1514256887, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Net/Sources/NetAddress.swift": [1514256887, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Net/Sources/NetEvent.swift": [1514256887, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Net/Sources/NetNamedPipe.swift": [1514256887, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Net/Sources/NetTCP.swift": [1514256887, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Net/Sources/NetTCPSSL.swift": [1514256887, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Net/Sources/NetUDP.swift": [1514256887, 0]

@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "b5d89ffff7135d280a92986d83d4658c"
+build_time: [1514450995, 167945000]
+inputs:
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/Promise.swift": [1514450983, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/ThreadQueue.swift": [1514450983, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/Threading.swift": [1514450983, 0]

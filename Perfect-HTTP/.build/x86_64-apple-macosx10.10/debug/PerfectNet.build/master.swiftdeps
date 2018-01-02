@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "3458ab596c12f027cca63d4fea0c0f72"
+build_time: [1514449146, 581586000]
+inputs:
+  "/Users/macmini2/Desktop/workSpace/Perfect-HTTP/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/Net.swift": [1514449114, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-HTTP/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetAddress.swift": [1514449114, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-HTTP/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetEvent.swift": [1514449114, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-HTTP/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetNamedPipe.swift": [1514449114, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-HTTP/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetTCP.swift": [1514449114, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-HTTP/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetTCPSSL.swift": [1514449114, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-HTTP/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetUDP.swift": [1514449114, 0]

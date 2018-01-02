@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "2785c3aab56e5cec629f32960809f98e"
+build_time: [1514449136, 530540000]
+inputs:
+  "/Users/macmini2/Desktop/workSpace/Perfect-Net/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/Algorithms.swift": [1514449112, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Net/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/ByteIO.swift": [1514449112, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Net/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/Extensions.swift": [1514449112, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Net/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/JWT.swift": [1514449112, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Net/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/Keys.swift": [1514449112, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Net/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/OpenSSLInternal.swift": [1514449112, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Net/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/PerfectCrypto.swift": [1514449112, 0]

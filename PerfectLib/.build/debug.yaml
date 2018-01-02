@@ -1,0 +1,65 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  "main": ["<PerfectLib.module>"]
+  "test": ["<PerfectLibTests.module>","<PerfectLib.module>","<PerfectLibPackageTests.test>"]
+  "PerfectLibTests.module": ["<PerfectLibTests.module>"]
+  "PerfectLib.module": ["<PerfectLib.module>"]
+  "PerfectLibPackageTests.test": ["<PerfectLibPackageTests.test>"]
+default: "main"
+commands: 
+  "<C.PerfectLib.module>":
+    tool: phony
+    inputs: ["/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.swiftmodule"]
+    outputs: ["<PerfectLib.module>"]
+
+  "<C.PerfectLibPackageTests.test>":
+    tool: phony
+    inputs: ["/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLibPackageTests.xctest/Contents/MacOS/PerfectLibPackageTests"]
+    outputs: ["<PerfectLibPackageTests.test>"]
+
+  "<C.PerfectLibTests.module>":
+    tool: phony
+    inputs: ["/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLibTests.swiftmodule"]
+    outputs: ["<PerfectLibTests.module>"]
+
+  "C.PerfectLib.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "PerfectLib"
+    module-output-path: "/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.swiftmodule"
+    inputs: ["/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/Bytes.swift","/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/Dir.swift","/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/File.swift","/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/JSONConvertible.swift","/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/Log.swift","/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/PerfectError.swift","/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/PerfectServer.swift","/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/SwiftCompatibility.swift","/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/SysProcess.swift","/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/Utilities.swift"]
+    outputs: ["/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Bytes.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Dir.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/File.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/JSONConvertible.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Log.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/PerfectError.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/PerfectServer.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/SwiftCompatibility.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/SysProcess.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Utilities.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.swiftmodule"]
+    import-paths: ["/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug"]
+    temps-path: "/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build"
+    objects: ["/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Bytes.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Dir.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/File.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/JSONConvertible.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Log.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/PerfectError.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/PerfectServer.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/SwiftCompatibility.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/SysProcess.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Utilities.swift.o"]
+    other-args: ["-swift-version","3","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j4","-DSWIFT_PACKAGE","-module-cache-path","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/ModuleCache"]
+    sources: ["/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/Bytes.swift","/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/Dir.swift","/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/File.swift","/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/JSONConvertible.swift","/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/Log.swift","/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/PerfectError.swift","/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/PerfectServer.swift","/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/SwiftCompatibility.swift","/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/SysProcess.swift","/Users/macmini2/Desktop/framework/PerfectLib/Sources/PerfectLib/Utilities.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "4"
+
+  "C.PerfectLibPackageTests.test":
+    tool: shell
+    description: "Linking ./.build/x86_64-apple-macosx10.10/debug/PerfectLibPackageTests.xctest/Contents/MacOS/PerfectLibPackageTests"
+    inputs: ["/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Bytes.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Dir.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/File.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/JSONConvertible.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Log.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/PerfectError.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/PerfectServer.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/SwiftCompatibility.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/SysProcess.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Utilities.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLibTests.build/PerfectLibTests.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLibTests.build/XCTestManifests.swift.o"]
+    outputs: ["/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLibPackageTests.xctest/Contents/MacOS/PerfectLibPackageTests"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-L","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug","-o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLibPackageTests.xctest/Contents/MacOS/PerfectLibPackageTests","-module-name","PerfectLibPackageTests","-Xlinker","-bundle","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Bytes.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Dir.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/File.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/JSONConvertible.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Log.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/PerfectError.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/PerfectServer.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/SwiftCompatibility.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/SysProcess.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Utilities.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLibTests.build/PerfectLibTests.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLibTests.build/XCTestManifests.swift.o"]
+
+  "C.PerfectLibTests.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "PerfectLibTests"
+    module-output-path: "/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLibTests.swiftmodule"
+    inputs: ["/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLib.swiftmodule","/Users/macmini2/Desktop/framework/PerfectLib/Tests/PerfectLibTests/PerfectLibTests.swift","/Users/macmini2/Desktop/framework/PerfectLib/Tests/PerfectLibTests/XCTestManifests.swift"]
+    outputs: ["/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLibTests.build/PerfectLibTests.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLibTests.build/XCTestManifests.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLibTests.swiftmodule"]
+    import-paths: ["/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug"]
+    temps-path: "/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLibTests.build"
+    objects: ["/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLibTests.build/PerfectLibTests.swift.o","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/PerfectLibTests.build/XCTestManifests.swift.o"]
+    other-args: ["-swift-version","3","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j4","-DSWIFT_PACKAGE","-module-cache-path","/Users/macmini2/Desktop/framework/PerfectLib/.build/x86_64-apple-macosx10.10/debug/ModuleCache"]
+    sources: ["/Users/macmini2/Desktop/framework/PerfectLib/Tests/PerfectLibTests/PerfectLibTests.swift","/Users/macmini2/Desktop/framework/PerfectLib/Tests/PerfectLibTests/XCTestManifests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "4"
+

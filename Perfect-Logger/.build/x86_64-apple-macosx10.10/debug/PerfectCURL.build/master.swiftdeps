@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "43ac9ed982c78def768bf1a269bfb688"
+build_time: [1514451014, 876750000]
+inputs:
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/CURLRequest.swift": [1514450983, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/CURLRequestOptions.swift": [1514450983, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/CURLResponse.swift": [1514450983, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/CURLResponseInfos.swift": [1514450983, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/cURL.swift": [1514450983, 0]

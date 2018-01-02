@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "e44bebc71d5041ccdc3da0ee042981ff"
+build_time: [1514258798, 449248000]
+inputs:
+  "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/Sources/PerfectRequestLogger.swift": [1514256834, 0]

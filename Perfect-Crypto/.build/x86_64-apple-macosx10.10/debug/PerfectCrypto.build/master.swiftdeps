@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "45b7eefbeb1d00e645806f98c7e6437e"
+build_time: [1514448385, 291564000]
+inputs:
+  "/Users/macmini2/Desktop/workSpace/Perfect-Crypto/Sources/PerfectCrypto/Algorithms.swift": [1514256917, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Crypto/Sources/PerfectCrypto/ByteIO.swift": [1514256917, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Crypto/Sources/PerfectCrypto/Extensions.swift": [1514256917, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Crypto/Sources/PerfectCrypto/JWT.swift": [1514256917, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Crypto/Sources/PerfectCrypto/Keys.swift": [1514256917, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Crypto/Sources/PerfectCrypto/OpenSSLInternal.swift": [1514256917, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Crypto/Sources/PerfectCrypto/PerfectCrypto.swift": [1514256917, 0]

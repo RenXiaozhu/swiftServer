@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "162a5597139329b070a1d6a25b384bed"
+build_time: [1514451015, 996131000]
+inputs:
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/Sources/FileLogger.swift": [1514256820, 0]
+  "/Users/macmini2/Desktop/workSpace/Perfect-Logger/Sources/RemoteLogger.swift": [1514256820, 0]

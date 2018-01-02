@@ -1,0 +1,134 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  "main": ["<PerfectCZlib.module>"]
+  "test": ["<PerfectCZlib.module>"]
+  "PerfectCZlib.module": ["<PerfectCZlib.module>"]
+default: "main"
+commands: 
+  "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/adler32.c.o":
+    tool: clang
+    description: "Compile PerfectCZlib adler32.c"
+    inputs: ["/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/adler32.c"]
+    outputs: ["/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/adler32.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=PerfectCZlib","-I","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/include","-fmodules-cache-path=/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/adler32.c.d","-c","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/adler32.c","-o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/adler32.c.o"]
+    deps: "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/adler32.c.d"
+
+  "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/compress.c.o":
+    tool: clang
+    description: "Compile PerfectCZlib compress.c"
+    inputs: ["/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/compress.c"]
+    outputs: ["/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/compress.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=PerfectCZlib","-I","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/include","-fmodules-cache-path=/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/compress.c.d","-c","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/compress.c","-o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/compress.c.o"]
+    deps: "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/compress.c.d"
+
+  "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/crc32.c.o":
+    tool: clang
+    description: "Compile PerfectCZlib crc32.c"
+    inputs: ["/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/crc32.c"]
+    outputs: ["/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/crc32.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=PerfectCZlib","-I","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/include","-fmodules-cache-path=/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/crc32.c.d","-c","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/crc32.c","-o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/crc32.c.o"]
+    deps: "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/crc32.c.d"
+
+  "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/deflate.c.o":
+    tool: clang
+    description: "Compile PerfectCZlib deflate.c"
+    inputs: ["/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/deflate.c"]
+    outputs: ["/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/deflate.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=PerfectCZlib","-I","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/include","-fmodules-cache-path=/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/deflate.c.d","-c","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/deflate.c","-o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/deflate.c.o"]
+    deps: "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/deflate.c.d"
+
+  "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/gzclose.c.o":
+    tool: clang
+    description: "Compile PerfectCZlib gzclose.c"
+    inputs: ["/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/gzclose.c"]
+    outputs: ["/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/gzclose.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=PerfectCZlib","-I","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/include","-fmodules-cache-path=/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/gzclose.c.d","-c","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/gzclose.c","-o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/gzclose.c.o"]
+    deps: "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/gzclose.c.d"
+
+  "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/gzlib.c.o":
+    tool: clang
+    description: "Compile PerfectCZlib gzlib.c"
+    inputs: ["/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/gzlib.c"]
+    outputs: ["/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/gzlib.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=PerfectCZlib","-I","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/include","-fmodules-cache-path=/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/gzlib.c.d","-c","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/gzlib.c","-o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/gzlib.c.o"]
+    deps: "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/gzlib.c.d"
+
+  "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/gzread.c.o":
+    tool: clang
+    description: "Compile PerfectCZlib gzread.c"
+    inputs: ["/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/gzread.c"]
+    outputs: ["/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/gzread.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=PerfectCZlib","-I","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/include","-fmodules-cache-path=/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/gzread.c.d","-c","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/gzread.c","-o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/gzread.c.o"]
+    deps: "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/gzread.c.d"
+
+  "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/gzwrite.c.o":
+    tool: clang
+    description: "Compile PerfectCZlib gzwrite.c"
+    inputs: ["/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/gzwrite.c"]
+    outputs: ["/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/gzwrite.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=PerfectCZlib","-I","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/include","-fmodules-cache-path=/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/gzwrite.c.d","-c","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/gzwrite.c","-o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/gzwrite.c.o"]
+    deps: "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/gzwrite.c.d"
+
+  "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/infback.c.o":
+    tool: clang
+    description: "Compile PerfectCZlib infback.c"
+    inputs: ["/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/infback.c"]
+    outputs: ["/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/infback.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=PerfectCZlib","-I","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/include","-fmodules-cache-path=/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/infback.c.d","-c","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/infback.c","-o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/infback.c.o"]
+    deps: "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/infback.c.d"
+
+  "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/inffast.c.o":
+    tool: clang
+    description: "Compile PerfectCZlib inffast.c"
+    inputs: ["/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/inffast.c"]
+    outputs: ["/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/inffast.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=PerfectCZlib","-I","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/include","-fmodules-cache-path=/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/inffast.c.d","-c","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/inffast.c","-o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/inffast.c.o"]
+    deps: "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/inffast.c.d"
+
+  "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/inflate.c.o":
+    tool: clang
+    description: "Compile PerfectCZlib inflate.c"
+    inputs: ["/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/inflate.c"]
+    outputs: ["/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/inflate.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=PerfectCZlib","-I","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/include","-fmodules-cache-path=/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/inflate.c.d","-c","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/inflate.c","-o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/inflate.c.o"]
+    deps: "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/inflate.c.d"
+
+  "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/inftrees.c.o":
+    tool: clang
+    description: "Compile PerfectCZlib inftrees.c"
+    inputs: ["/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/inftrees.c"]
+    outputs: ["/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/inftrees.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=PerfectCZlib","-I","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/include","-fmodules-cache-path=/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/inftrees.c.d","-c","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/inftrees.c","-o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/inftrees.c.o"]
+    deps: "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/inftrees.c.d"
+
+  "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/trees.c.o":
+    tool: clang
+    description: "Compile PerfectCZlib trees.c"
+    inputs: ["/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/trees.c"]
+    outputs: ["/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/trees.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=PerfectCZlib","-I","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/include","-fmodules-cache-path=/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/trees.c.d","-c","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/trees.c","-o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/trees.c.o"]
+    deps: "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/trees.c.d"
+
+  "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/uncompr.c.o":
+    tool: clang
+    description: "Compile PerfectCZlib uncompr.c"
+    inputs: ["/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/uncompr.c"]
+    outputs: ["/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/uncompr.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=PerfectCZlib","-I","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/include","-fmodules-cache-path=/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/uncompr.c.d","-c","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/uncompr.c","-o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/uncompr.c.o"]
+    deps: "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/uncompr.c.d"
+
+  "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/zutil.c.o":
+    tool: clang
+    description: "Compile PerfectCZlib zutil.c"
+    inputs: ["/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/zutil.c"]
+    outputs: ["/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/zutil.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=PerfectCZlib","-I","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/include","-fmodules-cache-path=/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/zutil.c.d","-c","/Users/macmini2/Desktop/workSpace/CLip/PerfectCZlib/zutil.c","-o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/zutil.c.o"]
+    deps: "/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/zutil.c.d"
+
+  "<C.PerfectCZlib.module>":
+    tool: phony
+    inputs: ["/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/adler32.c.o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/compress.c.o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/crc32.c.o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/deflate.c.o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/gzclose.c.o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/gzlib.c.o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/gzread.c.o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/gzwrite.c.o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/infback.c.o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/inffast.c.o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/inflate.c.o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/inftrees.c.o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/trees.c.o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/uncompr.c.o","/Users/macmini2/Desktop/workSpace/CLip/.build/x86_64-apple-macosx10.10/debug/PerfectCZlib.build/zutil.c.o"]
+    outputs: ["<PerfectCZlib.module>"]
+

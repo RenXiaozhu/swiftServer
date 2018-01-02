@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AB852BC1FF4F46F00D9BE36 /* PerfectCZlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AB852BB1FF4F46F00D9BE36 /* PerfectCZlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AC2BA2F1FF3AA5600123143 /* inftrees.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* inftrees.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AC2BA301FF3AA5600123143 /* zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AC2BA311FF3AA5600123143 /* inflate.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* inflate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AC2BA321FF3AA5600123143 /* zconf.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* zconf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		OBJ_40 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_46 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* adler32.c */; };
+		OBJ_47 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* compress.c */; };
+		OBJ_48 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* crc32.c */; };
+		OBJ_49 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* deflate.c */; };
+		OBJ_50 /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* gzclose.c */; };
+		OBJ_51 /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* gzlib.c */; };
+		OBJ_52 /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* gzread.c */; };
+		OBJ_53 /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* gzwrite.c */; };
+		OBJ_54 /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* infback.c */; };
+		OBJ_55 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* inffast.c */; };
+		OBJ_56 /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* inflate.c */; };
+		OBJ_57 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* inftrees.c */; };
+		OBJ_58 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* trees.c */; };
+		OBJ_59 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* uncompr.c */; };
+		OBJ_60 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* zutil.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7AB852BB1FF4F46F00D9BE36 /* PerfectCZlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerfectCZlib.h; sourceTree = "<group>"; };
+		OBJ_10 /* compress.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = compress.c; sourceTree = "<group>"; };
+		OBJ_11 /* crc32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = crc32.c; sourceTree = "<group>"; };
+		OBJ_12 /* deflate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = deflate.c; sourceTree = "<group>"; };
+		OBJ_13 /* gzclose.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gzclose.c; sourceTree = "<group>"; };
+		OBJ_14 /* gzlib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gzlib.c; sourceTree = "<group>"; };
+		OBJ_15 /* gzread.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gzread.c; sourceTree = "<group>"; };
+		OBJ_16 /* gzwrite.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gzwrite.c; sourceTree = "<group>"; };
+		OBJ_17 /* infback.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = infback.c; sourceTree = "<group>"; };
+		OBJ_18 /* inffast.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = inffast.c; sourceTree = "<group>"; };
+		OBJ_19 /* inflate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = inflate.c; sourceTree = "<group>"; };
+		OBJ_20 /* inftrees.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = inftrees.c; sourceTree = "<group>"; };
+		OBJ_21 /* trees.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = trees.c; sourceTree = "<group>"; };
+		OBJ_22 /* uncompr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = uncompr.c; sourceTree = "<group>"; };
+		OBJ_23 /* zutil.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zutil.c; sourceTree = "<group>"; };
+		OBJ_25 /* czlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = czlib.h; sourceTree = "<group>"; };
+		OBJ_26 /* inftrees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inftrees.h; sourceTree = "<group>"; };
+		OBJ_27 /* zlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
+		OBJ_28 /* inflate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inflate.h; sourceTree = "<group>"; };
+		OBJ_29 /* zconf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zconf.h; sourceTree = "<group>"; };
+		OBJ_30 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		OBJ_32 /* PerfectCZlib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PerfectCZlib; sourceTree = SOURCE_ROOT; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* adler32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = adler32.c; sourceTree = "<group>"; };
+		"PerfectCZlib::PerfectCZlib::Product" /* PerfectCZlib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectCZlib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_24 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_25 /* czlib.h */,
+				OBJ_26 /* inftrees.h */,
+				OBJ_27 /* zlib.h */,
+				OBJ_28 /* inflate.h */,
+				OBJ_29 /* zconf.h */,
+				7AB852BB1FF4F46F00D9BE36 /* PerfectCZlib.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		OBJ_31 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"PerfectCZlib::PerfectCZlib::Product" /* PerfectCZlib.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_30 /* module.modulemap */,
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_31 /* Tests */,
+				OBJ_32 /* PerfectCZlib */,
+				OBJ_33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* PerfectCZlib */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* PerfectCZlib */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* adler32.c */,
+				OBJ_10 /* compress.c */,
+				OBJ_11 /* crc32.c */,
+				OBJ_12 /* deflate.c */,
+				OBJ_13 /* gzclose.c */,
+				OBJ_14 /* gzlib.c */,
+				OBJ_15 /* gzread.c */,
+				OBJ_16 /* gzwrite.c */,
+				OBJ_17 /* infback.c */,
+				OBJ_18 /* inffast.c */,
+				OBJ_19 /* inflate.c */,
+				OBJ_20 /* inftrees.c */,
+				OBJ_21 /* trees.c */,
+				OBJ_22 /* uncompr.c */,
+				OBJ_23 /* zutil.c */,
+				OBJ_24 /* include */,
+			);
+			path = PerfectCZlib;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7AC2BA2D1FF3A9BB00123143 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC2BA2F1FF3AA5600123143 /* inftrees.h in Headers */,
+				7AC2BA301FF3AA5600123143 /* zlib.h in Headers */,
+				7AC2BA311FF3AA5600123143 /* inflate.h in Headers */,
+				7AB852BC1FF4F46F00D9BE36 /* PerfectCZlib.h in Headers */,
+				7AC2BA321FF3AA5600123143 /* zconf.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		"PerfectCZlib::PerfectCZlib" /* PerfectCZlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_42 /* Build configuration list for PBXNativeTarget "PerfectCZlib" */;
+			buildPhases = (
+				OBJ_45 /* Sources */,
+				OBJ_61 /* Frameworks */,
+				7AC2BA2D1FF3A9BB00123143 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectCZlib;
+			productName = PerfectCZlib;
+			productReference = "PerfectCZlib::PerfectCZlib::Product" /* PerfectCZlib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"PerfectCZlib::SwiftPMPackageDescription" /* PerfectCZlibPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_36 /* Build configuration list for PBXNativeTarget "PerfectCZlibPackageDescription" */;
+			buildPhases = (
+				OBJ_39 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectCZlibPackageDescription;
+			productName = PerfectCZlibPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "PerfectCZlib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"PerfectCZlib::SwiftPMPackageDescription" /* PerfectCZlibPackageDescription */,
+				"PerfectCZlib::PerfectCZlib" /* PerfectCZlib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_40 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_46 /* adler32.c in Sources */,
+				OBJ_47 /* compress.c in Sources */,
+				OBJ_48 /* crc32.c in Sources */,
+				OBJ_49 /* deflate.c in Sources */,
+				OBJ_50 /* gzclose.c in Sources */,
+				OBJ_51 /* gzlib.c in Sources */,
+				OBJ_52 /* gzread.c in Sources */,
+				OBJ_53 /* gzwrite.c in Sources */,
+				OBJ_54 /* infback.c in Sources */,
+				OBJ_55 /* inffast.c in Sources */,
+				OBJ_56 /* inflate.c in Sources */,
+				OBJ_57 /* inftrees.c in Sources */,
+				OBJ_58 /* trees.c in Sources */,
+				OBJ_59 /* uncompr.c in Sources */,
+				OBJ_60 /* zutil.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/PerfectCZlib/include",
+				);
+				INFOPLIST_FILE = PerfectCZlib.xcodeproj/PerfectCZlib_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MODULEMAP_FILE = module.modulemap;
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectCZlib;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = PerfectCZlib;
+			};
+			name = Debug;
+		};
+		OBJ_44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/PerfectCZlib/include",
+				);
+				INFOPLIST_FILE = PerfectCZlib.xcodeproj/PerfectCZlib_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MODULEMAP_FILE = module.modulemap;
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectCZlib;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = PerfectCZlib;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "PerfectCZlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_36 /* Build configuration list for PBXNativeTarget "PerfectCZlibPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_37 /* Debug */,
+				OBJ_38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_42 /* Build configuration list for PBXNativeTarget "PerfectCZlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_43 /* Debug */,
+				OBJ_44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}

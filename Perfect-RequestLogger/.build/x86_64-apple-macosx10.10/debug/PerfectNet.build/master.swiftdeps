@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "fd03f298736654409db74079b95563ff"
+build_time: [1514258787, 584725000]
+inputs:
+  "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/Net.swift": [1514258764, 0]
+  "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetEvent.swift": [1514258764, 0]
+  "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetNamedPipe.swift": [1514258764, 0]
+  "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetTCP.swift": [1514258764, 0]
+  "/Users/macmini2/Desktop/framework/Perfect-RequestLogger/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetTCPSSL.swift": [1514258764, 0]
